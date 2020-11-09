@@ -1,0 +1,11 @@
+#col2{width: 500px; margin: 200px auto 100px; font-family: 'Nanum Gothic', sans-serif;border-radius: 50px; box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);padding: 50px;border: 1px solid #ccc;}
+#col2 h2{text-align: center; font-size: 24px; margin-bottom: 50px; color: #0c4da2}
+#login_form p{text-align: center; font-size: 20px; margin-bottom: 50px}
+#id_pw_title{float: left; font-size: 20px; margin:0 50px 0 100px}
+#login2{width: 500px; margin: 50px auto 0}
+#login2 ul li{margin-bottom: 20px}
+#login2 ul li input{padding: 10px 5px; border-radius: 5px}
+#id_pw_title ul li{padding: 5px 0}
+#login_button{clear: both; margin:50px 0 0 200px}
+#login_button button{padding: 10px 30px; font-size: 20px}
+#join_button{font-size: 20px; margin: 50px 0 0 220px}

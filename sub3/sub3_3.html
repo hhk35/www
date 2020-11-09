@@ -1,0 +1,197 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>삼성중공업-재무정보</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25ed4bdcad.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3commone.css">
+    <link rel="stylesheet" href="css/content3.css">
+    <link rel="stylesheet" href="css/Nwagon.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=3;
+      include "common/sub_nav.html"; 
+    ?>
+    <!-- 본문콘텐츠영역 -->
+          
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>홈</span>&gt;
+                    <span>고객지원</span>&gt;
+                    <strong>재무정보</strong>
+                </div>
+                <h2>재무정보</h2>
+                <p class="slogan">삼성중공업의 주요 재무현황을 확인하실 수 있습니다.</p>
+            </div>
+            <div class="content_area">
+                <section class="sales">
+                    <h3>매출액</h3>
+                    <div id="chart71"></div>
+                    
+                </section>
+                <section class="summary">
+                    <h3>요약재무정보</h3>
+                    <span>(단위:백만원)</span>
+                    <table>
+                        <thead>
+                           <tr>
+                                <th scope="col">과목</th>
+                                <th scope="col">2014</th>
+                                <th scope="col">2015</th>
+                                <th scope="col">2016</th>
+                                <th scope="col">2017</th>
+                                <th scope="col">2018</th>
+                                <th scope="col">2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">자산총계</th>
+                                <td>17,122,234</td>
+                                <td>17,301,591</td>
+                                <td>17,217,463</td>
+                                <td>17,818,113</td>
+                                <td>17,282,892</td>
+                                <td>13,600,084</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">유동자산</th>
+                                <td>10,581,204</td>
+                                <td>10,110,481</td>
+                                <td>9,950,790</td>
+                                <td>6,779,933</td>
+                                <td>7,405,496</td>
+                                <td>6,929,473</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">비유동자산</th>
+                                <td>6,541,030</td>
+                                <td>7,191,111</td>
+                                <td>7,266,673</td>
+                                <td>7,038,181</td>
+                                <td>6,877,396</td>
+                                <td>6,670,611</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <th scope="row">부채총계</th>
+                                <td>11,549,072</td>
+                                <td>13,035,846</td>
+                                <td>10,942,152</td>
+                                <td>8,020,660</td>
+                                <td>7,536,612</td>
+                                <td>8,351,156</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">유동부채</th>
+                                <td>10,008,363</td>
+                                <td>9,570,119</td>
+                                <td>9,045,743</td>
+                                <td>7,145,283</td>
+                                <td>6,267,119</td>
+                                <td>7,089,068</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">비유동부채</th>
+                                <td>1,540,709</td>
+                                <td>3,465,727</td>
+                                <td>1,896,409</td>
+                                <td>875,378</td>
+                                <td>1,269,493</td>
+                                <td>1,262,088</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <th scope="row">자본총계</th>
+                                <td>5,573,161</td>
+                                <td>4,265,745</td>
+                                <td>5,470,146</td>
+                                <td>5,797,453</td>
+                                <td>6,746,280</td>
+                                <td>5,248,928</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">자본금</th>
+                                <td>1,154,951</td>
+                                <td>1,154,951</td>
+                                <td>1,950,574</td>
+                                <td>1,950,574</td>
+                                <td>3,150,574</td>
+                                <td>3,150,574</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">이익잉여금</th>
+                                <td>4,872,462</td>
+                                <td>3,593,525</td>
+                                <td>3,519,572</td>
+                                <td>3,198,433</td>
+                                <td>2,800,081</td>
+                                <td>1,502,204</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <th scope="row">영업이익</th>
+                                <td>183,019</td>
+                                <td>(1,501,905)</td>
+                                <td>(147,199)</td>
+                                <td>(524,167)</td>
+                                <td>(409,252)</td>
+                                <td>(616,586)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">법인순이익</th>
+                                <td>189,754</td>
+                                <td>(1,461,810)</td>
+                                <td>(68,940)</td>
+                                <td>(463,899)</td>
+                                <td>(497,598)</td>
+                                <td>(1,139,246)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">당기순이익</th>
+                                <td>147,320</td>
+                                <td>(1,212,110)</td>
+                                <td>(138,776)</td>
+                                <td>(340,748)</td>
+                                <td>(388,189)</td>
+                                <td>(1,315,353)</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                           <tr>
+                                <th scope="row">매출액</th>
+                                <td>12,879,062</td>
+                                <td>9,714,441</td>
+                                <td>10,414,188</td>
+                                <td>7,901,235</td>
+                                <td>5,265,120</td>
+                                <td>7,349,656</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+            </div>
+        </article>
+        
+   <? include "../common/sub_foot.html" ?>
+   <script src="js/Nwagon.js"></script>
+</body>
+</html>

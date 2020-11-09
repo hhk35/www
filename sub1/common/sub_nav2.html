@@ -1,0 +1,37 @@
+<script src="../common/js/jquery-1.12.4.min.js"></script>
+<script>
+$(document).ready(function() {
+          var num = '<?=$_GET['num']?>';
+         
+          if(num==1){
+              $('.subnav ul li:eq(0)').find('a').addClass('current');
+          }else if(num==2){
+              $('.subnav ul li:eq(1)').find('a').addClass('current');
+          }else if(num==3){
+              $('.subnav ul li:eq(2)').find('a').addClass('current');
+          }else if(num==4){
+              $('.subnav ul li:eq(3)').find('a').addClass('current');
+          }
+});
+</script>
+         
+
+         
+       
+    <!-- 메인 비주얼 영역 -->    
+        <div class="visual">
+            <img src="common/images/visual.jpg" alt="">
+        </div>
+    <!-- 서브네비영역 --> 
+        <div class="subnav_box">
+            <h3>회사소개</h3>
+            <p>세계최고의 제품과 기술력으로 조선해양의 변화와 혁신을 이끌어갑니다.</p>
+            <div class="subnav">
+                <ul>
+                    <li><a href="sub1_1.html">기업정보</a></li>
+                    <li><a href="sub1_2.html">CEO인사말</a></li>
+                    <li><a href="sub1_3.html">연혁</a></li>
+                    <li><a href="sub1_4.html">지속가능경영</a></li>
+                </ul>
+            </div>
+        </div>

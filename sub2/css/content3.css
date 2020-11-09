@@ -1,0 +1,60 @@
+/* 기업정보 본문 */
+
+#content{width: 1200px; margin: 0 auto}
+#content .line_map{float: right; margin: 0 40px 40px 0}
+#content h2{clear: both ;text-align: center; font-size: 60px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px}
+#content h3{font-size: 40px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 50px}
+#content .slogan{font-size: 30px; line-height: 1.5em; font-family:'Nanum Myeongjo', serif; text-align: center; margin-bottom: 100px}
+#content .slogan>span{font-weight: 700; color: #255eab}
+#content p{line-height: 1.7em; margin-bottom: 20px; font-family: 'Nanum Gothic', sans-serif}
+
+
+.content_area{width: 1120px; margin: 0 auto}
+.content_area section{margin-bottom: 100px}
+.content_area .tabs ul{overflow: hidden}
+.content_area .tabs ul li{float: left; width: 33.1%; text-align: center; background: #fff; border: 1px solid #ccc; margin-bottom: 100px}
+.content_area .tabs ul li a{display: block;font-size: 20px; padding: 10px 0; transition: all .5s}
+.content_area .tabs ul li a:hover{background: #255eab; color: #fff; font-weight: 700}
+.content_area dl dt{color: #0c4da2;font-size: 24px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 30px}
+.content_area dl dd{font-size: 18px; font-family: 'Nanum Gothic', sans-serif; line-height: 1.5em; margin-bottom: 20px}
+
+.content_area section:first-of-type{overflow: hidden}
+.content_area section:first-of-type>img{float: left; margin: 0 50px 100px 0; border-radius: 25px}
+.content_area section:first-of-type .rd_infor{float: right; width: 600px}
+.content_area section:first-of-type p{font-size: 18px; text-align: justify}
+
+.content_area section:first-of-type .tank{clear: both; height: 260px; margin-bottom: 100px}
+.content_area section:first-of-type .tank>img{float: right; margin: 0}
+.content_area section:first-of-type .tank dl{width: 640px; float: left; margin-right: 40px}
+
+.content_area section:first-of-type .model{clear: both; height: 260px; margin-bottom: 100px}
+.content_area section:first-of-type .model>img{float: left}
+.content_area section:first-of-type .model dl{width: 640px; float: right; margin-left: 40px}
+
+.content_area section:nth-of-type(2) .one_time{margin-bottom: 100px}
+.content_area section:nth-of-type(2) .welding{margin-bottom: 100px; overflow: hidden}
+.content_area section:nth-of-type(2) .welding dl{width: 600px; float: right}
+
+.content_area section:nth-of-type(2) .draw dl{width: 600px; float: left; margin-right: 40px}
+
+.content_area section:last-of-type h3{text-align: center}
+.content_area section:last-of-type .skill_img{background: url(../images/content3/new.jpg)no-repeat; position: relative; overflow: hidden; width: 2000px; height: 300px; left: 50%; top:0; margin: 0 0 100px -1000px;}
+.content_area section:last-of-type .skill_img .opacity_box{position: absolute; width: 2000px; height: 300px; background: rgba(0,0,0,.6); z-index: 1}
+.content_area section:last-of-type .skill_img p{text-align: center; color: #fff; font-size: 30px; position: absolute; top: 100px; left: 350px; z-index: 2}
+.content_area section:last-of-type div{margin-bottom: 100px}
+
+.content_area section:last-of-type span{display: block; font-size: 26px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 50px}
+.content_area section:last-of-type dl{margin-bottom: 50px}
+
+.content_area section:last-of-type .ict{width: 1920px; height: 800px; background: url(../images/content3/ict.jpg)top no-repeat; background-size: cover; position: relative; z-index: 1; color: #fff; left: 50%; top: 0; margin-left: -955px; overflow: hidden; background-attachment: fixed}
+.content_area section:last-of-type .ict .opacity_box{width: 100%; height: 100%; background: rgba(0,0,0,.6); position: absolute; z-index: -1}
+.content_area section:last-of-type .ict .ict_inner{width: 1120px; margin: 0 auto}
+.content_area section:last-of-type .ict .ict_inner>span{margin-top: 100px}
+.content_area section:last-of-type .ict dl>dt{color: #fff}
+
+.content_area section:last-of-type .lng{margin:100px 0 100px 0; overflow: hidden}
+.content_area section:last-of-type .lng img:nth-of-type(1){float: right}
+.content_area section:last-of-type .lng dl:nth-of-type(1){width:640px; margin-bottom: 100px}
+.content_area section:last-of-type .lng img:nth-of-type(2){float: left; margin: 20px 40px 50px 0}
+.content_area section:last-of-type .lng dl:nth-of-type(2){width:640px; float: right; margin-top: 10px}
+.content_area section:last-of-type .lng dl:nth-of-type(3){clear: both}

@@ -1,0 +1,219 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>삼성중공업-FAQ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25ed4bdcad.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5commone.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+    ?>  
+    <!-- 본문콘텐츠영역 -->
+          
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>홈</span>&gt;
+                    <span>고객지원</span>&gt;
+                    <strong>FAQ</strong>
+                </div>
+                <h2>FAQ</h2>
+            </div>
+            <div class="content_area">
+                <div class="tabs">
+                    <ul>
+                        <li><a class="tab tab1" href="#javascript:void(0)">채용관련</a></li>
+                        <li><a class="tab tab2" href="#javascript:void(0)">협력사등록관련</a></li>
+                        <li><a class="tab tab3" href="#javascript:void(0)">문의하기</a></li>
+                    </ul>
+                </div>
+                <section class="list">
+                    <h3>채용관련</h3>
+                    <ul class="accordion">
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>채용모집 분야 및 시기는 언제입니까?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                    <p><span>A</span>채용분야는 [홈페이지>인재채용>입사지원가이드]를 통해 확인하실 수 있으며, 3급 신입사원은 삼성채용 홈페이지(http://careers.samsung.co.kr/)를 통해 상반기, 하반기에 지원서를접수 받고 있습니다.</p>
+                                    <p>기타 직무별 모집 공고는 [홈페이지>인재채용>채용공고] 또는 채용포털 사이트를 통해 확인하실 수 있습니다. 경력사원은 연중 상시 모집하고 있습니다.</p>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>3급 신입사원의 모집 시기와 지원자격은?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                    <p><span>A</span>일반적으로 3급 신입사원은 대졸신입사원을 지칭하며 상반기, 하반기에 지원서 접수가 시작됩니다.<br>삼성채용 홈페이지(http://careers.samsung.co.kr)를 통해 모집합니다.</p>
+                                    <dl>
+                                        <dt>지원 자격은,</dt>
+                                        <dd>*학력과 연령, 성별에 제한이 없습니다.</dd>
+                                        <dd>*해외여행에 결격사유가 없어야 하며, 남자는 병역기피 사실이 없어야 합니다.</dd>
+                                        <dd>*공인된 영어회화 자격은 필수입니다. (채용공고內 모집 직군에 따라 개별 명시)</dd>
+                                        <dd>*영어회화 자격은 지원서를 제출하는 기간 동안 유효한 성적에 한해 지원이 가능합니다.</dd>
+                                        <dd>*기타 전공을 포함한 지원자격은 채용공고에 명시하고 있습니다.</dd>
+                                    </dl>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>4,5급 신입사원의 모집시기와 지원자격은?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                   <p><span>A</span>4급은 전문대졸, 5급은 고졸 사원을 지칭하며, 모집시기는 홈페이지를 통해 별도 공고됩니다.</p>
+                                    <dl>
+                                        <dt>지원 자격은,</dt>
+                                        <dd>*학력과 연령, 성별에 제한이 없습니다.</dd>
+                                        <dd>*해외여행에 결격사유가 없어야 하며, 남자는 병역기피 사실이 없어야 합니다.</dd>
+                                        <dd>*세부 지원자격은 채용 공고에 명시하고 있습니다.</dd>
+                                    </dl>
+                                    <p>채용 공고는 삼성채용 홈페이지(http://careers.samsung.co.kr/) 또는<br>(http://www.samsungcareers.com/shi/)를 통해 확인하실 수 있습니다.</p>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>경력사원의 모집시기와 지원자격은?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                   <p><span>A</span>경력사원은 연중 상시로 모집되며, 당사 홈페이지 또는 삼성채용 홈페이지(http://careers.samsung.co.kr/)를 통해 공고 게시되고 있습니다.</p>
+                                    <dl>
+                                        <dt>지원 자격은,</dt>
+                                        <dd>*지원분야 실무경력 4년 이상으로 영어회화가 가능.</dd>
+                                        <dd>*해외여행에 결격사유가 없는 분들은 누구나 응시 가능합니다.</dd>
+                                        <dd>*해양분야는 플랜트, 엔지니어링 분야 경력이 인정됩니다.</dd>
+                                        <dd>※ 모집 직종에 따라 지원자격이 상이하오니, 채용공고를 확인하여 주시기 바랍니다.</dd>
+                                    </dl>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>인턴사원에 지원하고 싶습니다.<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                   <p><span>A</span>대학생 인턴사원은 삼성채용 홈페이지(http://careers.samsung.co.kr/)를 통해 모집합니다. 해당기간에 모집공고란을 확인하여 주십시오.</p>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>입사지원시 직무관련 자격증이 있으면 도움이 되나요?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                   <p><span>A</span>해당 공고의 지원요건이 직무관련 자격증 보유를 의무로 하는 경우, 자격증 보유자는 채용전형시 가점을 부여받거나 우대를 받을 수 있습니다.</p>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>전형 후 불합격 여부 통보는?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                   <p><span>A</span>입사지원서 작성시 입력하신 이메일로 결과가 통보됩니다.</p>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>GSAT에 대해 알고싶습니다.<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                   <p><span>A</span>삼성직무적성검사(Global Samsung Aptitude Test)는 학력 또는 단편적인 지식 보다는 폭넓은 지식으로 주어진 상황을 유연하게 대처하고 해결할 수 있는 종합적인 능력을 평가하는 검사입니다.</p>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>지원서 작성은 어떻게 하나요?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                   <p><span>A</span><br>[3급 신입채용]<br>삼성채용 홈페이지(http://careers.samsung.co.kr/)에 접속하셔서 [인재와 채용]→[채용지원]→[3급신입채용] 메뉴를 클릭, 최초로 지원서를 작성하시는 분들은 [신규 회원 가입] 버튼을 누르시고 로그인용 이메일 주소와 비밀번호 설정, 로그인 후 지원서를 작성합니다.</p>
+                                   <p>[4,5급 신입채용]<br>삼성채용 홈페이지(http://careers.samsung.co.kr/) 또는 (http://www.samsungcareers.com/shi/)에 회원가입을 하시고 로그인 후 지원서 작성이 가능합니다</p>
+                                   <p>[경력채용]<br>삼성중공업 홈페이지(http://shi.samsung.co.kr/)에 접속하셔서 [인재채용]→[입사지원가이드]→[채용절차]→[경력채용]→[온라인지원서 작성] 메뉴를 클릭, 로그인 후 지원서를 작성합니다.<br>단, 경력채용 지원서를 작성하시는 분들은 당사 지원서양식을 다운받으신 후 작성하시고 온라인 지원서에 첨부 하셔야 합니다. (당사 지원서 양식: 당사 홈페이지에 게시)</p>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </section>
+                <section class="list">
+                    <h3>협력사 등록관련</h3>
+                    <ul class="accordion">
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>귀사에 물품구매 및 입찰에 있어서 등록을 하려면 어떤 조건이 충족되어야 하나요?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                   <p><span>A</span>당사에 등록 업체가 되시려면 우선 귀사가 공급하시는 물품의 구매담당자와 납기/가격/품질 등의 협의를 거쳐 QA 실사 합격이 되셔야 합니다. 그 후 업체 등록을 하시면 됩니다.</p>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="question hide">
+                            <dl>
+                                <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>협력사로 등록하려고 합니다. 절차가 어떻게 되나요?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                                <dd class="answer">
+                                   <p><span>A</span><br>(조선/해양)<br>아래 사이트에서 신규등록 절차를 확인하여 주십시오.<br>http://www.s-gips.co.kr</p>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </section>
+                <section class="list">
+                    <h3>문의하기</h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">채용</th>
+                                    <td>국내/해외 채용문의</td>
+                                    <td>dooyong.lim@samsung.com</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">제품분야</th>
+                                    <td>(조선/해양)발주의뢰,제품정보</td>
+                                    <td>eumji.yoo@samsung.com</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">IR</th>
+                                    <td>재무정보, 공시, 주가 관련 문의</td>
+                                    <td>kwangtek.kim@samsung.com</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">기술관련</th>
+                                    <td>신기술제안, 기술문의</td>
+                                    <td>jn97.lee@samsung.com</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">협력사 관련</th>
+                                    <td>협력사 등록방법, 담당자 연락처</td>
+                                    <td>ysoo49.kim@samsung.com</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">기전팀 관련</th>
+                                    <td>ECO솔루션, 운항제어솔루션, 파워솔루션 등 선박시스템 관련</td>
+                                    <td>yuranc.kim@samsung.com</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">기타</th>
+                                    <td>경력증명서</td>
+                                    <td>garam07.kim@partner.samsung.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </section>
+            </div>
+        </article>
+        
+    <? include "../common/sub_foot.html" ?>
+    <script src="js/faq.js"></script>
+</body>
+</html>

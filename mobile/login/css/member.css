@@ -1,0 +1,31 @@
+#col2{width: 80%; margin: 50px auto; border: 1px solid #ccc; padding: 5%; border-radius: 50px; box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);font-family: 'Nanum Gothic', sans-serif}
+#col2 h2{text-align: center; font-size: 24px; margin-bottom: 50px; color: #0c4da2}
+#login_form p{text-align: center; font-size: 20px; margin-bottom: 50px}
+
+#login2{width: 100%; margin: 50px auto}
+#login2 ul li{margin-bottom: 20px}
+
+#id_input_button{width: 80%; margin: 0 10%}
+#id_pw_title{float: left; width: 40%; font-size: 20px; margin:0 3%}
+#id_pw_input{float: right; width: 50%}
+
+#login2 ul li input{width: 100%; padding: 10px 1%; border-radius: 5px}
+#id_pw_title ul li{padding:7px 0}
+#login_button{clear: both; margin:50px 0 0 35%}
+#login_button button{padding: 20px 30px; font-size: 20px}
+#join_button{font-size: 20px; margin: 50px 0 50px 42%}
+
+@media screen and (max-width:768px) {
+    #id_input_button{width: 90%; margin: 0 5%}
+	#login_button{clear: both; margin:50px 0 0 36%}
+    #join_button{font-size: 20px; margin: 50px 0 50px 43%}
+}
+
+@media screen and (max-width:480px) {
+    #id_input_button{width: 90%; margin: 0 5%}
+    #id_pw_title{float: left; width: 40%; font-size: 20px; margin:0 3%}
+    #id_pw_input{float: right; width: 50%; margin-right: 4%}
+    #id_pw_input ul li input{width: 100%}
+	#login_button{clear: both; margin:50px 0 0 33%}
+    #join_button{font-size: 20px; margin: 50px 0 50px 39%}
+}

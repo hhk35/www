@@ -1,0 +1,168 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <title>삼성중공업</title>
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <script src="js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/25ed4bdcad.js" crossorigin="anonymous"></script>
+    <script>
+        // <![CDATA[
+        try {
+            window.addEventListener('load', function () {
+                setTimeout(scrollTo, 0, 0, 1);
+            }, false);
+        }
+        catch (e) {}
+        // ]]>
+    </script>
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+</head>
+<body>
+   <? include "head.html" ?>
+        <div class="main swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/visual_960.jpg" alt="">
+                    <p>Samsung Heavy Industries</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/visual2_960.jpg" alt="">
+                    <p>세계 초일류를 향한 도전</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/visual3_960.jpg" alt="">
+                    <p>조선시장 새 역사 창조</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="conbox"></div>
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+            <div class="management scroll1">
+                <h3>지속가능경영</h3>
+                <ul>
+                    <li>
+                        <a href="sub1_4.html?a=1">
+                           <h4>윤리경영</h4>
+                           <img src="images/ethice_960.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sub1_4.html?a=2">
+                           <h4>안전경영</h4>
+                           <img src="images/safety_960.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sub1_4.html?a=3">
+                           <h4>나눔경영</h4>
+                           <img src="images/divide_960.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sub1_4.html?a=4">
+                           <h4>준법경영</h4>
+                           <img src="images/law_960.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="business">
+               <h3>사업분야</h3>
+               <ul>
+                   <li class="link1 ship">
+                       <a href="sub2_1.html"><img src="images/ship_960.jpg" alt="조선사업"></a>
+                       <h4>조선사업</h4>
+                       <p>고기술 고부가가치 선박건조 세계 1위</p>
+                   </li>
+                   <li class="link2 sea">
+                        <a href="sub2_2.html"><img src="images/sea_960.jpg" alt="해양사업"></a>
+                        <h4>해양사업</h4>
+                        <p>탄탄한 기술력과 경험으로 가치 창조</p>
+                   </li>
+                   <li class="link3 skill">
+                        <a href="sub2_3.html"><img src="images/skill_960.jpg" alt="기술"></a>
+                        <h4>기술 개발</h4>
+                        <p>고부가가치 선박 해양플랜트 핵심기술</p>
+                   </li>
+               </ul>
+               <a href="#javascript:void(0)" class="mbtn left"><span class="hidden">이전 탭</span><i class="fas fa-arrow-circle-left"></i></a>
+               <a href="#javascript:void(0)" class="mbtn right"><span class="hidden">다음 탭</span><i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+            <div class="ir">
+                <h3>IR</h3>
+                <ul>
+                    <li>
+                        <a class="grow" href="sub3_1.html"><span class="hidden">주가정보</span></a>
+                        <a href="sub3_1.html">주가정보</a>
+                    </li>
+                    <li>
+                        <a class="grow2" href="sub3_2.html"><span class="hidden">지배구조</span></a>
+                        <a href="sub3_2.html">지배구조</a>
+                    </li>
+                    <li>
+                        <a class="grow3" href="sub3_3.html"><span class="hidden">재무현황</span></a>
+                        <a href="sub3_3.html">재무현황</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="index_faq">
+                <a href="sub4_1.html" class="faq_con">
+                    <h3>FAQ</h3>
+                    <div class="slide_box">
+                        <div class="slide">
+                            <ul>
+                                <li>채용모집 분야 및 시기는 언제입니까?</li>
+                                <li>3급 신입사원 모집 시기와 지원자격은?</li>
+                                <li>4,5급 신입사원의 모집시기와 지원자격은?</li>
+                                <li>경력사원의 모집시기와 지원자격은?</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="job">
+                <h3>입사지원가이드</h3>
+                <p>열정과 도전정신을 지닌 인재<br>신입/경력사원 지원자격과 방법을 안내해드립니다.</p>
+                <a href="sub4_3.html">가이드 바로가기</a>
+            </div>
+        </article>
+        <? include "foot.html" ?>
+        <script src="js/faq.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script>
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+    </script>
+</body>
+</html>

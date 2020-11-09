@@ -1,0 +1,23 @@
+/* FAQ */
+h2{text-align: center; font-size: 20px; font-weight: 700; margin: 20px 0}
+
+.main{margin-bottom: 60px; position: relative; top: 40px; left: 0}
+.main img{width: 100%}
+.main h3{width: 25% ;position: absolute; top: 30%; left: 50%; margin-left: -10%;color: #fff; font-size: 5vw}
+
+#content .accordion{width: 96%; margin: 20px 2%}
+#content .accordion span{font-size:14px; font-weight: 700; color: #255eab; margin:0 1%}
+#content .accordion .question dl{font-family: 'Nanum Gothic', sans-serif; }
+#content .accordion .question dl .q{border: 1px solid #ccc; font-weight: 700; font-size: 13px; position: relative; transition: all .3s; padding: 1px 0}
+#content .accordion .question dl .q:active{color: #fff ;background: #255eab}
+#content .accordion .question dl .q:active span{color: #fff}
+#content .accordion .question dl .q .trigger{padding: 2% 0; display: block}
+#content .accordion .question dl .q .trigger:active,
+#content .accordion .question dl .q .trigger:focus{color: #fff;background: #255eab}
+#content .accordion .question dl .q .trigger:active,
+#content .accordion .question dl .q .trigger:focus span{color: #fff}
+#content .accordion .question dl .q em{position: absolute; bottom: 50%; margin-bottom: -7px; right: 1%; width: 20px; height: 20px; text-align: center; display: block; font-size: 1.2em; transform: rotate(180deg)}
+#content .accordion .question dl .answer{display: none; font-size: 13px}
+#content .accordion .question dl .answer{border: 1px solid #ccc; padding: 2%}
+#content .accordion .question dl .answer p{padding-top: 2%}
+#content .accordion .question dl .answer dl{padding: 2%; font-size: 13px; line-height: 2em}

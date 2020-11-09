@@ -1,0 +1,71 @@
+/* 조선사업 본문 */
+
+#content{width: 1200px; margin: 0 auto}
+#content .line_map{float: right; margin: 0 40px 40px 0}
+#content h2{clear: both ;text-align: center; font-size: 60px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px}
+#content h3{font-size: 40px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 50px}
+#content .slogan{font-size: 30px; line-height: 1.5em; font-family:'Nanum Myeongjo', serif; text-align: center}
+#content .slogan>span{font-weight: 700; color: #255eab}
+#content p{font-size: 18px; line-height: 1.7em; margin-bottom: 20px; font-family: 'Nanum Gothic', sans-serif; text-align: justify}
+
+#content .content_area{margin:0 40px 0 40px}
+#content .content_area .content_top{margin-bottom: 100px}
+#content .content_area .content_bottom{width: 100%; height: 850px;margin-bottom: 150px; position: relative; overflow: hidden}
+#content .content_area .content_bottom a{display: block; width: 50px;height: 50px; font-size: 50px}
+#content .content_area .content_bottom .left{position: absolute; left: 10px; top:510px; z-index: 100}
+#content .content_area .content_bottom .right{position: absolute; right: 10px;top:510px; z-index: 100}
+#content .content_area .content_bottom a:hover i{color: #255eab}
+#content .content_area .content_bottom a i{color: #fff}
+#content .content_area .content_bottom h3{text-align: center}
+#content .content_area .content_bottom .all{width: 1120px; overflow: hidden}
+#content .content_area .content_bottom .product{position:relative; width:13440px; height:850px; left:0; top:100}
+#content .content_area .content_bottom .half{overflow: hidden; float: left}
+#content .content_area .content_bottom figure{margin-bottom: 100px;width:1120px; height:700px; position:relative; top: 50px; float: left}
+#content .content_area .content_bottom figure h4{font-size: 30px; margin-bottom: 50px}
+#content .content_area .content_bottom figure .opacity_box{width: 100%; height: 600px;position: absolute; top: 100px;left: 0; margin: 0}
+#content .content_area .content_bottom figure img{transition:all .6s; transform: scale(1)}
+#content .content_area .content_bottom figure figcaption{position:absolute;left:0; top:0}
+#content .content_area .content_bottom figure span{display: block; font-size:1em; color:#fff;transform: translate(-400px,0); opacity:0; transition:all .2s;margin-bottom: 50px}
+#content .content_area .content_bottom figure p{ font-size:1.2em;color:#fff; transform: translate(-400px,0); opacity:0; transition:all .4s; text-align: justify}
+
+#content .content_area .content_bottom .lng .lng_img{width: 1120px; height: 600px; position:absolute; left: 0;top: 100px; overflow: hidden}
+#content .content_area .content_bottom .lng figcaption div{width: 600px;margin:200px 0 0 50px;position:absolute; right: -850px; text-align: center}
+#content .content_area .content_bottom .lng:hover img{transform:scale(1.3)}
+#content .content_area .content_bottom .lng:hover .opacity_box{background:rgba(0,0,0,.6) }
+#content .content_area .content_bottom .lng:hover span{transform: translate(0,0);opacity:1; color:#fff; font-size:26px; transition-delay: .6s;}
+#content .content_area .content_bottom .lng:hover p{transform: translate(0,0);opacity:1; color:#fff; transition-delay: 1s;}
+
+#content .content_area .content_bottom .fsru .fsru_img{width: 1120px; height: 600px; position:absolute; left: 0;top: 100px; overflow: hidden}
+#content .content_area .content_bottom .fsru figcaption div{width: 600px;margin:200px 0 0 50px;position:absolute; right: -850px; text-align: center}
+#content .content_area .content_bottom .fsru:hover img{transform:scale(1.3)}
+#content .content_area .content_bottom .fsru:hover .opacity_box{background:rgba(0,0,0,.6) }
+#content .content_area .content_bottom .fsru:hover span{transform: translate(0,0);opacity:1; color:#fff; font-size:26px; transition-delay: .6s;}
+#content .content_area .content_bottom .fsru:hover p{transform: translate(0,0);opacity:1; color:#fff; transition-delay: 1s;}
+
+#content .content_area .content_bottom .oil .oil_img{width: 1120px; height: 600px; position:absolute; left: 0;top: 100px; overflow: hidden}
+#content .content_area .content_bottom .oil figcaption div{width: 600px;margin:175px 0 0 50px;position:absolute; right: -850px; text-align: center}
+#content .content_area .content_bottom .oil:hover img{transform:scale(1.3)}
+#content .content_area .content_bottom .oil:hover .opacity_box{background:rgba(0,0,0,.6) }
+#content .content_area .content_bottom .oil:hover span{transform: translate(0,0);opacity:1; color:#fff; font-size:26px; transition-delay: .6s;}
+#content .content_area .content_bottom .oil:hover p{transform: translate(0,0);opacity:1; color:#fff; transition-delay: 1s;}
+
+#content .content_area .content_bottom .ice .ice_img{width: 1120px; height: 600px; position:absolute; left: 0;top: 100px; overflow: hidden}
+#content .content_area .content_bottom .ice figcaption div{width: 600px;margin:250px 0 0 50px;position:absolute; right: -850px; text-align: center}
+#content .content_area .content_bottom .ice:hover img{transform:scale(1.3)}
+#content .content_area .content_bottom .ice:hover .opacity_box{background:rgba(0,0,0,.6) }
+#content .content_area .content_bottom .ice:hover span{transform: translate(0,0);opacity:1; color:#fff; font-size:26px; transition-delay: .6s;}
+#content .content_area .content_bottom .ice:hover p{transform: translate(0,0);opacity:1; color:#fff; transition-delay: 1s;}
+
+#content .content_area .content_bottom .container .container_img{width: 1120px; height: 600px; position:absolute; left: 0;top: 100px; overflow: hidden}
+#content .content_area .content_bottom .container figcaption div{width: 600px;margin:200px 0 0 50px;position:absolute; right: -850px; text-align: center}
+#content .content_area .content_bottom .container:hover img{transform:scale(1.3)}
+#content .content_area .content_bottom .container:hover .opacity_box{background:rgba(0,0,0,.6) }
+#content .content_area .content_bottom .container:hover span{transform: translate(0,0);opacity:1; color:#fff; font-size:26px; transition-delay: .6s;}
+#content .content_area .content_bottom .container:hover p{transform: translate(0,0);opacity:1; color:#fff; transition-delay: 1s;}
+
+#content .content_area .content_bottom .cruiser .cruiser_img{width: 1120px; height: 600px; position:absolute; left: 0;top: 100px; overflow: hidden}
+#content .content_area .content_bottom .cruiser figcaption div{width: 600px;margin:250px 0 0 50px;position:absolute; right: -850px; text-align: center}
+#content .content_area .content_bottom .cruiser:hover img{transform:scale(1.3)}
+#content .content_area .content_bottom .cruiser:hover .opacity_box{background:rgba(0,0,0,.6) }
+#content .content_area .content_bottom .cruiser:hover span{transform: translate(0,0);opacity:1; color:#fff; font-size:26px; transition-delay: .6s;}
+#content .content_area .content_bottom .cruiser:hover p{transform: translate(0,0);opacity:1; color:#fff; transition-delay: 1s;}

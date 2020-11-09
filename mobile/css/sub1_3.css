@@ -1,0 +1,19 @@
+/* 연혁 */
+h2{text-align: center; font-size: 20px; font-weight: 700; margin: 20px 0}
+
+.main{margin-bottom: 60px; position: relative; top: 40px; left: 0}
+.main img{width: 100%}
+.main h3{width: 25% ;position: absolute; top: 30%; left: 50%; margin-left: -10%;color: #fff; font-size: 5vw}
+
+#content p{margin: 20px 1%; text-align: center}
+#content .slogan{text-align: center; font-size: 16px; margin: 20px 0}
+#content .slogan span{color: #0c4da2; font-weight: 700}
+#content .tabs{margin: 20px 0; overflow: hidden; border-top: 1px solid #ccc}
+#content .tabs a{display: block;font-size: 4.5vw; padding: 10px 0; transition: all .5s;float: left; width: 25%; text-align: center; background: #fff; border-bottom: 1px solid #ccc}
+#content .content-slide div{margin: 20px 0; font-size: 14px}
+#content img{width: 100%}
+
+#content dl{margin: 20px 5%}
+#content dl dt{font-size:16px;color: #0c4da2; font-weight: 700; margin-bottom: 10px; text-align: center}
+#content dl dd{margin-bottom: 10px; height: 30px}
+#content dl dd span{font-weight: 700; height: 30px;display: block; float: left; margin-right: 10px}

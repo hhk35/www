@@ -1,0 +1,43 @@
+/* 기업정보 본문 */
+
+#content{width: 1200px; margin: 0 auto}
+#content .line_map{float: right; margin: 0 40px 40px 0}
+#content h2{clear: both ;text-align: center; font-size: 60px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px}
+#content h3{font-size: 40px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 40px}
+#content .slogan{font-size: 30px; line-height: 1.5em; font-family: 'Nanum Gothic', sans-serif}
+#content .slogan>span{font-weight: 700; color: #255eab}
+#content p{font-size: 18px; line-height: 1.7em; margin-bottom: 50px; font-family: 'Nanum Gothic', sans-serif; text-align: justify}
+
+
+#content .content_area .content_top{overflow: hidden; margin-bottom: 150px}
+#content .content_area .outline{width: 600px; height: 790px; margin: 0 60px 0 40px; float: left}
+#content .content_area .infor{width: 360px; height: 690px; background: #255eab; color: #fff; padding: 50px; float: right; margin-right: 40px}
+#content .content_area .infor h4{font-size: 40px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif}
+#content .content_area .infor .line{clear: both; width: 360px; height: 5px; background: #fff ; margin: 40px 0 40px}
+#content .content_area .infor dt{font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif}
+#content .content_area .infor dd{font-size: 18px; font-weight: 400; font-family: 'Nanum Gothic', sans-serif}
+#content .content_area .infor .infor_top{height: 530px; overflow: hidden}
+#content .content_area .infor .infor_top dl{margin-bottom: 45px; overflow: hidden}
+#content .content_area .infor .infor_top dt{width: 150px; float: left}
+#content .content_area .infor .infor_top dd{width: 210px; float: right}
+
+#content .content_area .infor .infor_bottom{height: 150px}
+#content .content_area .infor .infor_bottom dl{margin-bottom: 20px}
+#content .content_area .infor .infor_bottom dt{width: 360px; height: 20px;margin-bottom: 10px}
+#content .content_area .infor .infor_bottom dd{width: 360px;text-align: right; line-height: 1.5em}
+
+#content .content_area .content_bottom{overflow: hidden; margin-bottom: 100px}
+#content .content_area .content_bottom img{float: left; margin: 0 60px 0 40px}
+#content .content_area .content_bottom .ideology{margin-right: 40px}
+#content .content_area .content_bottom .ideology p{margin-bottom: 35px}
+#content .content_area .content_bottom .ideology dl{width: 600px; height: 75px;overflow: hidden;line-height: 1.5em}
+#content .content_area .content_bottom .ideology dl dt{width: 140px; float: left; color: #255eab;font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif}
+#content .content_area .content_bottom .ideology dl dd{width: 460px; float: right;  text-align: justify;font-size: 18px;font-family: 'Nanum Gothic', sans-serif}
+
+.content_area .scroll1{position: relative; right:-1000px; top:0; opacity: 0;
+         transition: all .8s}
+.content_area .scroll2{position: relative; left:-1000px; top:0; opacity: 0;
+         transition: all .8s}
+
+.content_area .boxMove{right:0; opacity: 1 }
+.content_area .boxMove2{left: 0; opacity: 1}

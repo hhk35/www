@@ -1,0 +1,120 @@
+
+.visual{position: relative; overflow: hidden; width: 2000px; height: 850px; left: 50%; top:110px; margin:0 0 110px -1000px}
+.visual .gallery{position:relative; overflow:hidden; width:6000px; height:850px; left:0; top:0}
+.visual .gallery ul li{ float:left; list-style:none}
+.visual .gallery_text{width: 100%;  position: absolute; font-family: 'Nanum Myeongjo', serif; left:0px; top:50px; text-align: center}
+.visual .gallery_text ul{padding: 40px 0}
+.visual .gallery_text ul li{display: none;font-size: 40px; color: #fff}
+.visual .gallery_text ul li span{font-size: 60px;display: block; color: #fff; margin-top: 50px}
+.visual .dock{width:500px; position:absolute; left:50%; bottom:50px; margin-left: -80px}
+.visual .dock .mbutton{ margin-right:20px; cursor:pointer; display:block; float:left;  width:20px; height:20px; background: #fff; border-radius:10px; transition: all .5s}
+.visual .dock .ps{margin-top: -2px; cursor:pointer; display:block; float:left; width:25px; height:25px; background:url(../images/stop.png); background-size: cover; color: #fff}
+
+
+#content{overflow: hidden}
+#content h3{text-align: center; font-size: 50px; font-weight: bold; font-family: 'Nanum Gothic', sans-serif}
+#content .slogan{text-align: center; color: #666; font-size: 22px; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 80px}
+#content .management .management_inner{width: 1200px; margin: 0 auto}
+#content .management{overflow: hidden; margin-bottom: 150px}
+#content .management h3{margin: 150px 0 40px 0}
+#content .management h4{margin: 35px 0 70px; text-align: center; font-size: 24px; font-weight: 400; font-family: 'Nanum Gothic', sans-serif; color: #fff; transition: all .5s}
+#content .hover_box{width: 300px; height: 450px; margin-top: 350px; background:rgba(0,0,0,.6); overflow: hidden; position: absolute; transition: all .5s}
+#content .management a{display: block; color: #fff; font-size: 24px; position: absolute; bottom:100px; left: 90px; font-family: 'Arial', sans-serif; transform: translateX(-500px); transition: .5s; opacity: .1; overflow: hidden}
+#content .management a i{margin-left: 10px}
+#content .hover_box:hover a{transform: translateX(20px);opacity:1; transition-delay: .2s}
+#content .hover_box:hover h4{margin: 100px 0 70px}
+#content .management a::before, #content .management a::after{content: ''; width: 100%; height: 1px; position: absolute; bottom: 0; background: #fff; transition: all 1s}
+#content .management a::before{left: -151%}
+#content .management a::after{left: 160%}
+#content .management a:hover::after{left: 160%}
+#content .management a::after, #content .management a:hover::before{left: 0}
+
+#content .management .ethice:hover .hover_box{margin-top: 0; background:rgba(0,0,0,.7)}
+#content .management .safety:hover .hover_box{margin-top: 0; background:rgba(0,0,0,.7)}
+#content .management .divide:hover .hover_box{margin-top: 0; background:rgba(0,0,0,.7)}
+#content .management .law:hover .hover_box{margin-top: 0; background:rgba(0,0,0,.7)}
+
+#content .management .ethice{width: 300px; height: 450px;float: left; background: url(../images/ethice.jpg); position: relative; overflow: hidden}
+#content .management .ethice p{padding: 0 20px; color: #fff; text-align: justify; line-height: 1.5em}
+#content .management .safety{width: 300px; height: 450px;float: left; background: url(../images/safety.jpg); position: relative; overflow: hidden}
+#content .management .safety p{padding: 0 20px; color: #fff; text-align: justify; line-height: 1.5em}
+#content .management .divide{width: 300px; height: 450px; float: left; background: url(../images/divide.jpg); position: relative; overflow: hidden}
+#content .management .divide p{padding: 0 20px; color: #fff; text-align: justify; line-height: 1.5em}
+#content .management .law{width: 300px; height: 450px; float: right; background: url(../images/law.jpg); position: relative; overflow: hidden}
+#content .management .law p{padding: 0 20px; color: #fff; text-align: justify; line-height: 1.5em}
+
+
+#content .business{margin-bottom: 150px}
+#content .business .business_inner{width: 1200px; margin: 0 auto}
+#content .business h3{text-align: center; margin: 75px 0 40px 0}
+#content .business .slogan{text-align: center; margin: 0px 0 40px 0}
+#content .business h4{font-size: 26px; font-weight: bold; font-family: 'Nanum Gothic', sans-serif; margin: 40px 0}
+
+#content .business .ship{width: 960px; height: 540px; position: relative; left: 240px; top:20px}
+#content .business .ship .ship_content{width: 450px; height: 300px ;border: 10px solid rgba(204,204,204,.6); margin-top: 100px; text-align: right; position: absolute; left: -20px; z-index: 3; transition: all .3s}
+#content .business .ship .ship_content:hover{border: 10px solid rgba(12,77,162,.6)}
+#content .business .ship .ship_content:hover a div{background:#0c4da2; color: #fff; font-family: 'Nanum Gothic', sans-serif}
+#content .business .ship .ship_content h4{margin-right: 120px}
+#content .business .ship .ship_content p{margin: 0 120px 30px 0; font-size: 24px;font-family: 'Nanum Gothic', sans-serif; line-height: 1.5em }
+#content .business .ship a div{width: 125px; height: 20px; float: right; margin-right: 120px; padding: 20px; background:rgba(204,204,204,.6); font-family: 'Nanum Gothic', sans-serif;transition: all .3s}
+
+
+#content .business .ship .ship_img{width: 530px; height: 500px; background: url(../images/ship.jpg);margin: 0 0 40px 390px; position: absolute;z-index: 2}
+#content .business .ship .ship_box{width: 480px; height: 500px; background: rgba(224,224,224,.5); margin: 40px 0 0 480px; position: absolute; z-index: 1}
+
+#content .business .sea{width: 960px; height: 540px; position: relative; left: 0px; bottom: 20px}
+#content .business .sea .sea_content{width: 450px; height: 300px; ;border: 10px solid rgba(204,204,204,.6); margin-top: 100px; text-align: left; position: absolute; left: 510px;  z-index: 3; transition: all .3s}
+#content .business .sea .sea_content:hover{border: 10px solid rgba(12,77,162,.6)}
+#content .business .sea .sea_content:hover a div{background:#0c4da2; color: #fff; font-family: 'Nanum Gothic', sans-serif}
+#content .business .sea .sea_content h4{margin-left: 120px}
+#content .business .sea .sea_content p{margin: 0 0 30px 120px; font-size: 24px;font-family: 'Nanum Gothic', sans-serif; line-height: 1.5em }
+#content .business .sea a div{width: 125px; height: 20px; float: left; margin-left: 120px; padding: 20px; background:rgba(204,204,204,.6); font-family: 'Nanum Gothic', sans-serif; transition: all .3s}
+#content .business .sea .sea_img{width: 530px; height: 500px; background: url(../images/sea.jpg);margin: 0 0px 40px 40px; position: absolute;z-index: 2}
+#content .business .sea .sea_box{width: 480px; height: 500px; background: rgba(224,224,224,.5); margin: 40px 0 0 0; position: absolute; z-index: 1}
+
+
+
+
+#content .ir{height: 510px; overflow: hidden;margin-bottom: 150px; background: url(../images/ir.jpg)bottom no-repeat; background-attachment: fixed;position: relative; z-index: 1}
+#content .ir>.opacity_box{width: 100%; height: 510px; background: rgba(0,0,0,.4); position: absolute; z-index: -1}
+#content .ir .ir_inner{width: 1200px; margin: 0 auto}
+#content .ir h3{color:#fff; margin-top: 80px;font-family: 'Arial', sans-serif}
+#content .ir .slogan{margin: 50px 0 0 0; color: #fff}
+#content .ir li{width: 275px;height: 110px; float: left; margin: 90px 0 80px 0; border-right: 1px solid #fff}
+#content .ir dt{text-align: center; margin-bottom: 30px}
+#content .ir dt a{width: 145px;height: 40px; color: #fff; font-size: 24px; font-weight: bold}
+#content .ir dt a:hover{border: 1px solid #fff; padding: 15px}
+#content .ir dd{text-align: center; color: #fff; line-height: 1.5em}
+#content .ir ul li:first-child{margin-left: 40px}
+#content .ir ul li:last-child{margin-right: 40px; border-right: none}
+
+
+
+#content .ourstory{overflow: hidden; margin-bottom: 150px}
+#content .ourstory h3{font-family: 'Arial', sans-serif}
+#content .ourstory .ourstory_inner{width: 1200px; margin: 0 auto}
+#content .ourstory .slogan{margin: 50px 0 80px 0;}
+#content .ourstory h4{font-size: 26px; font-weight: 400; font-family: 'Arial', sans-serif}
+#content .ourstory ul li a:hover{color: #0c4da2; font-weight: 700}
+#content .ourstory ul li:hover{background: rgba(209,235,255,1)}
+
+#content .ourstory .news{width: 530px; margin: 0 60px 0 40px;float: left; position: relative}
+#content .ourstory .news h4{margin-bottom: 20px;}
+#content .ourstory .news li{margin-bottom: 20px; width: 530px; height: 100px; border: 1px solid #ccc; position: relative; transition: all .3s}
+#content .ourstory li a{display: block; position: absolute; top:20px; left: 20px; font-family: 'Nanum Gothic', sans-serif; font-size: 20px}
+#content .ourstory li span{display: block; position: absolute; bottom: 20px; right: 20px; font-family: 'Nanum Gothic', sans-serif; font-size: 13px}
+#content .ourstory .notice{width: 530px; margin-right: 40px; float: right; position: relative}
+#content .ourstory .notice h4{margin-bottom: 20px;}
+#content .ourstory .notice li{margin-bottom: 20px; width: 530px; height: 100px; border: 1px solid #ccc; position: relative; transition: all .3s}
+#content .ourstory i{font-size: 20px; color: #333; position: absolute; top:5px; right: 0}
+#content .ourstory i:hover{color: #0c4da2}
+
+
+#content .job{height: 320px; margin-bottom: 150px; background: url(../images/job.jpg)top no-repeat; background-attachment: fixed; overflow: hidden; position: relative; z-index: 1}
+#content .job>.opacity_box{width: 100%; height: 320px; background: rgba(0,0,0,.5); position: absolute;z-index: -1}
+#content .job .job_inner{width: 1200px; margin: 0 auto}
+#content .job h3{margin: 40px 0 35px 0; font-size: 40px;color: #fff}
+#content .job .slogan{margin-bottom: 40px; font-size: 18px; line-height: 1.5em; color: #fff}
+#content .job a div{width: 130px; height: 20px; margin-left: 505px; padding: 20px 30px; border: 1px solid #ccc; border-radius: 20px ;color: #fff; font-family: 'Nanum Gothic', sans-serif;text-align: center; transition: all .5s}
+#content .job a div:hover{background:#0c4da2; font-family: 'Nanum Gothic', sans-serif}
+

@@ -1,0 +1,57 @@
+/* CSS Document */
+
+.main{margin-bottom: 75px; position: relative; top: 40px; left: 0}
+.main img{width: 100%}
+.main p{width: 70%; text-align: center; position: absolute; top: 10%; left: 50%; margin-left: -35%;font-size: 5vw; color: #0c4da2}
+
+#content .management{overflow: hidden; margin-bottom: 45px; font-size: 3.7vw}
+#content .management li{float: left; width: 50%; text-align: center}
+#content .management li a{display: block; position: relative}
+#content .management li a h4{width: 50%; position: absolute; top: 45%; left: 25%;color: #fff}
+#content .management li a img{width: 100%}
+
+#content .business{overflow: hidden;margin-bottom: 45px; position: relative}
+#content .business ul{height: 290px}
+#content .business ul li{width: 70%; margin: 0 15% 20px 15%}
+#content .business ul li img{width: 100%; height: 235px}
+#content .business h4{margin: 10px;text-align: center}
+#content .business>a{display: block; width: 10%; height: 10%; position: absolute; font-size: 1.5em; padding: 10px 0; text-align: center}
+#content .business>.right{right: 15% ; bottom: 5px}
+#content .business>.left{left: 15% ; bottom: 5px}
+#content .business>a i{color: #0c4da2}
+#content .business ul li p{text-align: center; font-size: 0.8em}
+
+#content .ir{margin-bottom: 45px;  width: 100%; height: 160px;background: url(../images/ir_960.jpg)no-repeat; background-size: cover;position: relative}
+#content .ir h3{padding-top: 20px; color: #fff}
+#content .ir ul{overflow: hidden; text-align: center}
+#content .ir ul li{float: left; width: 33.33%; position: relative}
+#content .ir ul li a{display: block; color: #fff; text-align: center; margin-bottom: 10px; font-size: 0.8em} 
+#content .ir ul li a:last-of-type{padding-top: 25px}
+#content .ir ul li a:first-of-type{position: relative; top: 15px}
+#content .ir ul li:first-of-type a:first-of-type{width: 37px; height: 31px; background: url(../images/grow_320.png)no-repeat; left: 50%; margin-left: -18px}
+#content .ir ul li:nth-of-type(2) a:first-of-type{width: 31px; height: 31px; background: url(../images/grow2_320.png)no-repeat; left: 50%; margin-left: -15px}
+#content .ir ul li:last-of-type a:first-of-type{width: 31px; height: 31px; background: url(../images/grow3_320.png)no-repeat; left: 50%; margin-left: -15px}
+@media screen and(-webkit-min-device-pixel-ratio:2){
+    .grow{background: url(../images/grow_640.png)center center no-repeat; background-size: 37px 31px}
+    .grow2{background: url(../images/grow2_640.png)center center no-repeat; background-size: 31px 31px}
+    .grow3{background: url(../images/grow3_640.png)center center no-repeat; background-size: 31px 31px}
+}
+@media screen and(-webkit-min-device-pixel-ratio:3){
+    .grow{background: url(../images/grow_960.png)center center no-repeat; background-size: 37px 31px}
+    .grow2{background: url(../images/grow2_960.png)center center no-repeat; background-size: 31px 31px}
+    .grow3{background: url(../images/grow3_960.png)center center no-repeat; background-size: 31px 31px}
+}
+
+.index_faq{height: 50px ;background:rgba(12,77,162); margin-top: 10px; border-radius: 25px}
+.faq_con{display: block;height: 30px; margin: 0 3%; border-radius: 15px;position: relative; top: 10px; background:#fff ;text-align: left}
+.faq_con h3{padding: 0 3%; position: absolute; left: 2%; top: 4px}
+.faq_con .slide_box{width: 70%; height: 15px; overflow: hidden; position: absolute; left: 25%; top: 7px}
+.faq_con .slide_box .slide{position: absolute}
+.faq_con .slide_box .slide ul{font-size: 0.9em}
+.faq_con .slide_box .slide ul li{height: 13px; overflow: hidden; text-overflow: clip; margin-bottom: 5px}
+
+
+#content .job{margin-bottom: 45px; background: url(../images/job_960.jpg)no-repeat ; background-size: cover; width: 100%; height: 150px; position: relative; }
+#content .job h3{padding-top: 20px; color: #fff}
+#content .job p{color: #fff; text-align: center; margin-bottom: 10px; font-size: 0.9em;}
+#content .job a{display: block; color: #fff; text-align: center; background:rgba(12,77,162,.6); padding: 5px; width: 120px; position: absolute; bottom: 15px; left: 50%; margin-left: -65px; border-radius: 10px}

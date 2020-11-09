@@ -1,0 +1,81 @@
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+body {font-family:'돋움', Dotum; font-size:14px; color:#333;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+.hidden,#skipNav{display: block; position: absolute; left: -1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+/* 
+font-family: 'DM Serif Display', serif; 
+font-family: 'Arial', sans-serif;
+*/
+
+/* 헤더공통영역 */
+
+#headerArea{position:fixed; z-index: 30; height: 100px;
+	 background: rgba(0,0,0,.6);left:0; top: 0;
+	 width: 100%}	
+#headerArea	.headerInner{width: 90%; margin: 0 5%;
+	  overflow: hidden}
+#headerArea h1{ float: left; margin-top: 15px}
+#headerArea h1 a{display: block; width: 210px; height: 70px; color: #fff; text-decoration: none; background: url(../images/logo.png)no-repeat; text-indent: -999px; overflow: hidden}	
+#headerArea #gnb{float: right; margin-top: 35px; font-family: 'Arial', sans-serif}
+#headerArea #gnb ul{overflow: hidden; padding: 5px 0}
+#headerArea #gnb ul li{float: left; margin-right: 30px}
+#headerArea #gnb ul li a{color: #fff; text-decoration: none; font-size: 26px}
+#headerArea #gnb .close{display: none}
+#headerArea .btn{display: none; font-size: 50px; color: #fff}
+
+/* 푸터공통영역 */
+
+#footerArea{clear: both; background: #000}
+#footerArea img{float: left; margin: 50px 5% 50px 10%}
+#footerArea ul{font-family: 'Arial', sans-serif; font-size: 20px; color: #fff; padding: 50px}
+#footerArea ul li{margin-bottom: 20px}
+#footerArea ul li:last-child{margin-bottom: 0}
+.top_btn{display: block; width: 45px; height: 45px; padding-top: 8px;box-sizing: border-box;border-radius: 50%; background: rgba(135,135,135,.9); position: fixed; z-index: 100; right: 1%; bottom: 162px; font-size: 24px; color: #fff; text-align: center}
+.top_btn i{color: #fff}
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #footerArea{position: relative}
+    #footerArea img{width: 390px; margin: 50px 0; position: absolute; left: 50%; margin-left: -195px; float: none}
+    #footerArea ul li:first-of-type{margin-top: 150px}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #headerArea .headerInner #gnb{display: none; float: none; margin-top: 0; position: absolute; top: 95px; left: 0; width: 100%}
+    #headerArea .headerInner #gnb ul li{float: none; width: auto; margin-right: 0; text-align: center}
+    #headerArea .headerInner #gnb ul li a{display: block; padding: 25px 0; font-size: 26px; background: rgba(0,0,0,.6)}
+    #headerArea .headerInner #gnb ul li a:hover{background: rgba(255,255,255,.6); color: #333}
+    #headerArea .headerInner .btn{display:block; position:absolute; top:25px; right:30px}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	#footerArea img{width: 210px; height: 70px; margin: 50px 0; margin-left: -105px}
+    #footerArea ul{font-size: 16px}
+    #footerArea ul li:first-of-type{margin-top: 100px}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}

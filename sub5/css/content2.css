@@ -1,0 +1,44 @@
+/* 조선사업 본문 */
+
+#content{width: 1200px; margin: 0 auto}
+#content .line_map{float: right; margin: 0 40px 40px 0}
+#content h2{clear: both ;text-align: center; font-size: 60px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px}
+#content h3{font-size: 40px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 50px}
+#content .slogan{font-size: 30px; line-height: 1.5em; font-family:'Nanum Myeongjo', serif; text-align: center}
+#content .slogan>span{font-weight: 700; color: #255eab}
+#content p{font-size: 18px; line-height: 1.7em; margin-bottom: 20px; font-family: 'Nanum Gothic', sans-serif}
+
+
+#content .content_area{width: 1120px; margin:0 40px 0 40px}
+.content_area .tabs ul{overflow: hidden}
+.content_area .tabs ul li{float: left; width: 33.1%; text-align: center; background: #fff; border: 1px solid #ccc}
+.content_area .tabs ul li a{display: block;font-size: 20px; padding: 10px 0; transition: all .5s}
+.content_area .tabs ul li a:hover{background: #255eab; color: #fff; font-weight: 700}
+
+.content_area section:first-of-type{width: 1000px; margin: 100px auto}
+.content_area .accordion span{font-size: 20px; font-weight: 700; color: #255eab; margin-right: 20px}
+.content_area .accordion .question dl{font-family: 'Nanum Gothic', sans-serif; }
+.content_area .accordion .question dl .q{border: 1px solid #ccc; font-weight: 700; font-size: 20px; position: relative; transition: all .3s; box-sizing: border-box}
+.content_area .accordion .question dl .q:hover{color: #fff ;background: #255eab}
+.content_area .accordion .question dl .q:hover span{color: #fff}
+.content_area .accordion .question dl .q .trigger{padding: 20px; display: block}
+.content_area .accordion .question dl .q .trigger:hover,
+.content_area .accordion .question dl .q .trigger:active,
+.content_area .accordion .question dl .q .trigger:focus{color: #fff;background: #255eab}
+.content_area .accordion .question dl .q .trigger:hover,
+.content_area .accordion .question dl .q .trigger:active,
+.content_area .accordion .question dl .q .trigger:focus span{color: #fff}
+.content_area .accordion .question dl .q em{position: absolute;top: 50%; right: 10px; width: 30px; height: 30px; text-align: center;margin-top: -17px; display: block; font-size: 32px; transform: rotate(180deg)}
+.content_area .accordion .question dl .answer{display: none}
+.content_area .accordion .question dl .answer{border: 1px solid #ccc; padding: 20px}
+.content_area .accordion .question dl .answer p{padding-top: 10px}
+.content_area .accordion .question dl .answer dl{padding: 20px; font-size: 18px; line-height: 2em}
+
+.content_area section:nth-of-type(2){width: 1000px; margin: 100px auto}
+
+.content_area section:last-of-type{width: 2000px; height: 950px; background: url(../images/content2/inquire.jpg)center no-repeat; background-size: cover; position: relative; top:0;left: 50%; margin: 100px 0 100px -1000px}
+.content_area section:last-of-type h3{text-align: center; padding: 70px; color: #255eab}
+.content_area section:last-of-type table{width: 1000px; outline: 5px solid #333; font-size: 18px;font-family: 'Nanum Gothic', sans-serif; position: absolute; left:500px; top:200px}
+.content_area section:last-of-type table td{height: 90px;border: 1px solid #333; text-align: center;background: #255eab; color: #fff; opacity: .9}
+.content_area section:last-of-type table th{height: 90px;border: 1px solid #333; text-align: center;background: #255eab; color: #fff; opacity: .9}
+.content_area section:last-of-type table th:first-child{font-weight: 700}

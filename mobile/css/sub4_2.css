@@ -1,0 +1,17 @@
+/* 찾아오시는길 */
+h2{text-align: center; font-size: 20px; font-weight: 700; margin: 20px 0}
+
+.main{margin-bottom: 60px; position: relative; top: 40px; left: 0}
+.main img{width: 100%}
+.main h3{width: 25% ;position: absolute; top: 30%; left: 50%; margin-left: -10%;color: #fff; font-size: 5vw}
+
+#content section{margin: 20px 0}
+#content section p{margin-left: 5%}
+#content .rd #mapRd{width: 90%; height: 200px; border: 1px solid #ccc; margin: 10px 5%}
+#content .yard #mapYard{width: 90%; height: 200px; border: 1px solid #ccc; margin: 10px 5%}
+
+#content .map_infor{width: 100%; background: #255eab}
+#content .map_infor dl{padding: 2% 5%; color: #fff}
+#content .map_infor dl dt{font-weight: 700; margin-bottom: 10px}
+#content .map_infor dl dd{line-height: 1.5em; font-size: 13px}
+#content .map_infor p{color: #fff; padding: 2% 0}

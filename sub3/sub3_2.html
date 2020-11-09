@@ -1,0 +1,363 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>삼성중공업-지배구조</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25ed4bdcad.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3commone.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+    <!-- 메인 비주얼 영역 -->    
+        <div class="visual">
+            <img src="common/images/visual.jpg" alt="">
+        </div>
+    <!-- 서브네비영역 --> 
+        <div class="subnav_box">
+            <h3>투자정보</h3>
+            <p>삼성중공업의 분기별 실적을 확인하실 수 있습니다.</p>
+            <div class="subnav">
+                <ul>
+                    <li><a href="sub3_1.html">주가정보</a></li>
+                    <li><a class="current" href="sub3_2.html">지배구조</a></li>
+                    <li><a href="sub3_3.html">재무정보</a></li>
+                </ul>
+            </div>
+        </div>
+    <!-- 본문콘텐츠영역 -->
+          
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>홈</span>&gt;
+                    <span>고객지원</span>&gt;
+                    <strong>지배구조</strong>
+                </div>
+                <h2>지배구조</h2>
+                <p class="slogan">주주의 권리보장과 투명한 경영을 실현하고자 최선을 다합니다.</p>
+            </div>
+            <div class="content_area">
+                <div class="tabs">
+                    <ul>
+                        <li><a id="tab1" class="tab tab1" href="#javascript:void(0)">주주</a></li>
+                        <li><a id="tab2" class="tab tab2" href="#javascript:void(0)">이사회</a></li>
+                        <li><a id="tab3" class="tab tab3" href="#javascript:void(0)">감사기구</a></li>
+                    </ul>
+                </div>
+                <section class="list">
+                    <h3>주주</h3>
+                    <p class="slogan">주주의 권리를 보장하고 기업가치 향상을 위해 노력하겠습니다.</p>
+                    <h4>주식발행 내역</h4>
+                    <table>
+                        <thead>
+                           <tr>
+                                <th scope="col">주식의 종류</th>
+                                <th scope="col">발행주식 총수(주)</th>
+                                <th scope="col">액면총액(천원)</th>
+                                <th scope="col">비고</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">보통주</th>
+                                <td>630,000,000</td>
+                                <td>3,150,000,000</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">우선주</th>
+                                <td>114,845</td>
+                                <td>574,225</td>
+                                <td></td>
+                            </tr>
+                        </tbody>    
+                        <tfoot>
+                           <tr>
+                                <th scope="row">합계</th>
+                                <td>630,114,845</td>
+                                <td>3,150,574,225</td>
+                                <td></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <h4>자기주식 보유 현황</h4>
+                    <table>
+                        <thead>
+                           <tr>
+                                <th scope="col">주식의 종류</th>
+                                <th scope="col">주식수량(주)</th>
+                                <th scope="col"></th>
+                                <th scope="col">비고</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">보통주</th>
+                                <td>25,964,429</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">우선주</th>
+                                <td>-</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>    
+                        <tfoot>
+                           <tr>
+                                <th scope="row">합계</th>
+                                <td>25,964,429</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    
+                    <h4>주주분포 사항</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">구분</th>
+                                <th scope="col">성명</th>
+                                <th scope="col">주식의 종류</th>
+                                <th scope="col">소유주식수(주)</th>
+                                <th scope="col">비고</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">최대주주</th>
+                                <td>삼성전자</td>
+                                <td>보통주</td>
+                                <td>100,693,398</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">특수관계인</th>
+                                <td>삼성생명</td>
+                                <td>보통주</td>
+                                <td>19,309,062</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">특수관계인</th>
+                                <td>삼성전기</td>
+                                <td>보통주</td>
+                                <td>13,636,562</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">특수관계인</th>
+                                <td>삼성SDI</td>
+                                <td>보통주</td>
+                                <td>2,384,291</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">특수관계인</th>
+                                <td>제일기획</td>
+                                <td>보통주</td>
+                                <td>747,019</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">특수관계인</th>
+                                <td>삼성물산</td>
+                                <td>보통주</td>
+                                <td>743,311</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">특수관계인</th>
+                                <td>남준우</td>
+                                <td>보통주</td>
+                                <td>14,696</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">특수관계인</th>
+                                <td>김준철</td>
+                                <td>보통주</td>
+                                <td>11,618</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">특수관계인</th>
+                                <td>배진한</td>
+                                <td>보통주</td>
+                                <td>-</td>
+                                <td></td>
+                            </tr>
+                        </tbody>    
+                        <tfoot>
+                           <tr>
+                                <th scope="row">합계</th>
+                                <td></td>
+                                <td>보통주</td>
+                                <td>137,859,226</td>
+                                <td></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+                <section class="list">
+                    <h3>이사회</h3>
+                    <p class="slogan">신뢰를 바탕으로 한 정도경영을 실천하겠습니다.</p>
+                    <h4>이사회(등기이사) 구성현황</h4>
+                    <table>
+                        <thead>
+                           <tr>
+                                <th scope="col">구 분</th>
+                                <th scope="col">성 명</th>
+                                <th scope="col">직 위</th>
+                                <th scope="col">담당업무</th>
+                                <th scope="col">선 임</th>
+                                <th scope="col">임 기</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">사내이사</th>
+                                <td>남준우</td>
+                                <td>사장 (상근)</td>
+                                <td>대표이사</td>
+                                <td>2018.01.26</td>
+                                <td>3년</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">사내이사</th>
+                                <td>김준철</td>
+                                <td>부사장 (상근)</td>
+                                <td>해양사업본부장</td>
+                                <td>2018.01.26</td>
+                                <td>3년</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">사내이사</th>
+                                <td>배진한</td>
+                                <td>전무 (상근)</td>
+                                <td>경영지원 실장</td>
+                                <td>2019.03.22</td>
+                                <td>3년</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">사외이사</th>
+                                <td>유재한</td>
+                                <td>사외이사 (비상근)</td>
+                                <td>감사위원</td>
+                                <td>2018.03.23</td>
+                                <td>3년</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">사외이사</th>
+                                <td>최강식</td>
+                                <td>사외이사 (비상근)</td>
+                                <td>감사위원</td>
+                                <td>2018.03.23</td>
+                                <td>3년</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">사외이사</th>
+                                <td>남기섭</td>
+                                <td>사외이사 (비상근)</td>
+                                <td>감사위원</td>
+                                <td>2018.03.23</td>
+                                <td>3년</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">사외이사</th>
+                                <td>조현욱</td>
+                                <td>사외이사 (비상근)</td>
+                                <td>경영전반</td>
+                                <td>2020.03.20</td>
+                                <td>3년</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                           <tr>
+                                <th scope="row">비고</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+                <section class="list">
+                    <h3>감사기구</h3>
+                    <p class="slogan">감사기구는 투명한 경영을 위한 첫걸음입니다.</p>
+                    <h4>감사위원회 현황</h4>
+                    <table>
+                        <thead>
+                           <tr>
+                                <th scope="col">성명</th>
+                                <th scope="col">주요경력</th>
+                                <th scope="col">비고</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">유재한</th>
+                                <td>1955.03.15<br>미국 펜실베이니아대학원 경제학과 / 前)한국정책금융공사 사장</td>
+                                <td>사외이사<br>(감사위원장)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">남기섭</th>
+                                <td>1954.12.30<br>미국 밴더빌트대학교 경제학 석사 / 前)한국수출입은행 전무이사 겸 수석부행장</td>
+                                <td>사외이사</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">최강식</th>
+                                <td>1960.08.02<br>미국 예일대학교대학원 경제학 박사 / 現)연세대학교 경제학부 교수</td>
+                                <td>사외이사</td>
+                            </tr>
+                        </tbody>    
+                    </table>
+                    <h4>외부 감사인</h4>
+                    <table>
+                        <thead>
+                           <tr>
+                                <th scope="col">법인명</th>
+                                <th scope="col">계약기간</th>
+                                <th scope="col">최근 감사의견</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">삼일회계법인</th>
+                                <td>'17 사업연도 ~ '19 사업연도</td>
+                                <td>적정</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">삼정회게법인</th>
+                                <td>'20 사업연도 ~ '22 사업연도</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>    
+                    </table>
+                </section>
+            </div>
+        </article>
+        
+    <? include "../common/sub_foot.html" ?>
+    <script src="js/sub3_2.js"></script>
+</body>
+</html>

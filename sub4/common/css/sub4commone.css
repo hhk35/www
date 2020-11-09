@@ -1,0 +1,16 @@
+/* 1depth의 공통 */
+
+.visual{width: 2000px; height: 350px; position: relative; top:110px;left: 50%; margin-left: -1000px; z-index: -1}
+
+.subnav_box{width: 1200px; height: 250px;margin: 0 auto; text-align: center; position: relative; top:-129px; left: 0; margin-bottom: -92px}
+.subnav_box h3{font-size: 40px; color: #fff;font-family: 'Nanum Gothic', sans-serif; margin-bottom: 50px; font-weight: 400}
+.subnav_box p{font-size: 18px; color: #fff; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 50px}
+.subnav_box .subnav ul{overflow: hidden; width: 1120px; margin: 0 auto}
+.subnav_box .subnav ul li{float: left; width: 24.8%; text-align: center; background: rgba(0,0,0,.6); border: 1px solid #fff}
+.subnav_box .subnav ul li a{display: block;font-size: 20px; padding: 24px 0; color: #fff; transition: all .5s; font-weight: 700}
+.subnav_box .subnav ul li a.current{background: #fff; color: #333; font-weight: 700}
+.subnav_box .subnav ul li a:hover{background: #fff; color: #333}
+
+
+
+

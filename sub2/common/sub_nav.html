@@ -1,0 +1,32 @@
+<script>
+window.onload=function(){
+        var num = '<?=$_GET['num']?>';
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+        var nav3= document.getElementById('nav3');
+
+          if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+          }else if(num==3){
+              nav3.className='current';
+          }
+}
+</script>    
+<!-- 메인 비주얼 영역 -->    
+        <div class="visual">
+            <img src="common/images/visual.jpg" alt="">
+        </div>
+    <!-- 서브네비영역 --> 
+        <div class="subnav_box">
+            <h3>제품/기술</h3>
+            <p>삼성중공업이 세계 조선시장의 새 역사를 창조해 나가겠습니다.</p>
+            <div class="subnav">
+                <ul>
+                    <li><a id="nav1" href="sub2_1.html">조선사업</a></li>
+                    <li><a id="nav2" href="sub2_2.html">해양사업</a></li>
+                    <li><a id="nav3" href="sub2_3.html">기술 개발</a></li>
+                </ul>
+            </div>
+        </div>

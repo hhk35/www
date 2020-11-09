@@ -1,0 +1,124 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>삼성중공업-기업정보</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25ed4bdcad.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1commone.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+   
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+    ?>
+    <!-- 본문콘텐츠영역 -->
+          
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>홈</span>&gt;
+                    <span>회사소개</span>&gt;
+                    <strong>기업정보</strong>
+                </div>
+                <h2>기업정보</h2>
+            </div>
+            <div class="content_area">
+                <div class="content_top">
+                    <section class="outline">
+                        <h3>개요</h3>
+                        <p class="slogan">삼성중공업은 <span>조선/해양</span> 분야에서 세계 최고를 지향합니다.</p>
+                        <p>삼성중공업은 조선·해양 사업분야에서 세계 최고를 지향하며 다양한 프로젝트를 성공적으로 수행해 왔습니다.</p>
+                        <p>1974년 창업 이후 2019년 12월까지 세계 유수의 선사로부터 선박과 해양설비 1,249척을 수주해 그 중 1,135척을 성공적으로 인도한 삼성중공업은 첨단기술, 생산효율, 고부가가치선 분야에서 세계최고를 지향하며, 독보적인 사업 경쟁력을 갖추고 있습니다. 조선·해양사업 분야에서 차별화된 기술 경쟁력과 턴키 제작능력을 축적했으며 해양개발 설비의 핵심인 탑사이드 설계·시공 능력을 갖췄습니다.</p>
+                        <p>조선해양산업은 지식 기반의 복합 엔지니어링 사업으로서 다른 산업과의 연계 및 기술 파급효과가 클 뿐 아니라 기술, 자본, 노동이 집약적으로 투입되는 산업으로, 높은 기술 수준과 대규모 자본, 우수한 노동력을 필요로 합니다. 또한 조선해양사업은 전 세계가 단일 시장을 형성하고 있으며, 선주로부터 고가의 선박을 미리 주문 받아 생산하는 대표적 수주 산업입니다. 고가의 선박을 건조하는 만큼, 삼성중공업은 기술개발 및 고객만족을 통해 경쟁력을 확보하고, 신규시장을 개척하는 등 다양한 노력을 기울이고 있습니다.</p>
+                    </section>
+                    <section class="infor scroll1">
+                        <div class="infor_top">
+                            <h4>삼성중공업</h4>
+                            <div class="line"></div>
+                            <dl>
+                                <dt>창립</dt>
+                                <dd>1974년 8월 5일</dd>
+                            </dl>
+                            <dl>
+                                <dt>CEO</dt>
+                                <dd>남준우</dd>
+                            </dl>
+                            <dl>
+                                <dt>임직원 수</dt>
+                                <dd>10,008 명</dd>
+                            </dl>
+                            <dl>
+                                <dt>자본금</dt>
+                                <dd>3,150,574 백만원</dd>
+                            </dl>
+                            <dl>
+                                <dt>총자산</dt>
+                                <dd>13,600,084 백만원</dd>
+                            </dl>
+                            <dl>
+                                <dt>매출액</dt>
+                                <dd>7,349,656 백만원(19년)</dd>
+                            </dl>
+                        </div>
+                        <div class="infor_bottom">
+                            <dl>
+                                <dt>판교R&amp;D센터</dt>
+                                <dd>경기도 성남시 분당구 판교로 227번길 23<br>삼성중공업 판교R&amp;D센터</dd>
+                            </dl>
+                            <dl>
+                                <dt>거제조선소</dt>
+                                <dd>경상남도 거제시 장평동 장평3로 80</dd>
+                            </dl>
+                        </div>
+                    </section>
+                </div>
+                <div class="content_bottom scroll2">
+                    <img src="images/content1/ideology.jpg" alt="">
+                    <section class="ideology">
+                        <h3>경영이념</h3>
+                        <p class="slogan">인재와 기술을 바탕으로<br><span>최고의 제품과 서비스를 창출</span></p>
+                        <p>안전하고 환경 친화적이며 경제성과 편리성이 탁월한 선박 및 설비를<br> 제공함으로써 <strong>고객만족과 삶의질 향상에 기여</strong> 한다.</p>
+                        <dl>
+                            <dt>인재제일</dt>
+                            <dd><strong>기업은 사람이다</strong> 라는 삼성의 인재에 대한 믿음입니다.</dd>
+                        </dl>
+                        <dl>
+                            <dt>최고지향</dt>
+                            <dd>끊임없는 열정과 도전정신으로 항상 최고에 도전하고 세계<br>최고를 향한 경쟁에서 당당하게 승리하기 위해 노력합니다.</dd>
+                        </dl>
+                        <dl>
+                            <dt>변화선도</dt>
+                            <dd><strong>변하지 않으면 살아 남을 수 없다</strong>는 위기의식을 바탕으로<br>변화와 혁신을 실행합니다.</dd>
+                        </dl>
+                        <dl>
+                            <dt>정도경영</dt>
+                            <dd>곧은 마음, 진실, 바른 행동으로 법과 윤리를 철저하게 준수하여 사회로부터 신뢰받는 영속기업이 되기 위해 노력합니다.</dd>
+                        </dl>
+                        <dl>
+                            <dt>상생추구</dt>
+                            <dd><strong>남보다 남을 먼저 생각한다</strong>는 삼성의 기본 철학으로,<br>지역사회, 국가, 인류의 공동번영을 위해 노력합니다.</dd>
+                        </dl>
+                    </section>
+                </div>
+            </div>
+        </article>
+    <? include "../common/sub_foot.html" ?>   
+    <script src="js/scroll.js"></script>
+</body>
+</html>

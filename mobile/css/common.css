@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+body {
+ color:#333;
+ font-size:14px;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {border-radius:1px}
+textarea { resize:none}
+label { cursor:pointer}
+table{border-collapse: collapse}
+.hidden,#skipNav{display: block; position: absolute; left: -1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+select, input[type=button], input[type=submit], input[type=reset]{-webkit-appearance:none;}
+/* 전체 공통 */
+#wrap{width:100%; overflow:hidden; position: relative; font-family: 'Nanum Gothic', sans-serif}
+#content h3{font-size: 18px; font-weight: bold; margin-bottom: 15px; text-align: center}
+#content h4{font-size: 16px}
+
+/* 헤더 공통 */
+#headerArea{width: 100%; height: 40px; position: fixed; z-index: 100; background: #fff}
+#headerArea .logo{float: left; position: relative; top: 7px; left: 5%}
+#headerArea .logo a{width:154px; height: 27px; display: block; background: url(../images/logo_960.jpg)no-repeat; background-size: cover;text-indent: -9999px}
+#headerArea .btn{width: 19px; height: 19px; display: block; float: right; background: url(../images/menu_320.jpg)no-repeat; padding: 5px; text-indent: -9999px; position: absolute; right: 2%; top: 9px}
+
+@media screen and(-webkit-min-device-pixel-ratio:2){
+    .btn{background: url(../images/menu_640.jpg)no-repeat; background-size: 19px 19px}
+}
+@media screen and(-webkit-min-device-pixel-ratio:3){
+    .btn{background: url(../images/menu_960.jpg)no-repeat; background-size: 19px 19px}
+}
+.box{width: 100%; height: 100%; background: rgba(0,0,0,.7); position: absolute; left: 0; top: 0; z-index: 10; display: none}
+
+#gnb{clear: both; width: 50%; position: absolute; right: 0; top: 40px; z-index: 100; background: #fff; display: none}
+#gnb .join{overflow: hidden; margin-bottom: 20px; border: 0}
+#gnb .join li{width: 49%; float: left; text-align: center; padding: 5px 0}
+#gnb .join li:first-of-type{border-right: 1px solid #ccc}
+#gnb .join li img{width: 20px; height: 20px; margin-bottom: 10px}
+#gnb .join li a{display: block; font-size: 1em}
+
+#gnb h3{font-size: 16px;font-weight: bold}
+#gnb ul{border-top: 1px solid #ccc}
+#gnb .main_menu>li{border-bottom: 1px solid #ccc}
+#gnb .main_menu li{text-align: center; position: relative}
+#gnb .main_menu li em{width: 12px; height: 12px; position: absolute; right: 10%; top: 10px; font-size: 1.2em; z-index: -1; text-align: center}
+#gnb .main_menu li a{display: block; padding: 10px}
+#gnb .main_menu li ul{display: none; font-size: 1.1em}
+
+/* 푸터 공통 */
+
+#footerArea{clear: both; background: #4d5559; color: #fff}
+#footerArea .footer_top{border-bottom: 1px solid #ccc; font-size: 0.9em}
+#footerArea .footer_top ul{overflow: hidden}
+#footerArea .footer_top ul li{float: left; width: 50%; padding: 10px 0}
+#footerArea .footer_top ul li a{display: block; color: #fff; text-align: center}
+#footerArea .copyright{padding: 10px; text-align: center; font-size: 0.8em}
+#footerArea .pc{background: #ccc}
+#footerArea .pc a{display: block; text-align: center; padding: 10px}
+
+.top_btn{display: block; width: 35px; height: 35px; padding: 2px; box-sizing: border-box;border-radius: 50%; background: #0c4da2; position: fixed; z-index: 100; right: 3%; bottom: 6%; font-size: 1.7em; text-align: center}
+.top_btn i{color: #fff}
+
+/* 서브 탭메뉴 */
+#content .list{display: none}
+#content .tabs .on{background: #0c4da2; color: #fff; font-weight: 700}

@@ -1,0 +1,18 @@
+/* 입사지원가이드 */
+h2{text-align: center; font-size: 20px; font-weight: 700; margin: 20px 0}
+
+.main{margin-bottom: 60px; position: relative; top: 40px; left: 0}
+.main img{width: 100%}
+.main h3{width: 25% ;position: absolute; top: 30%; left: 50%; margin-left: -10%;color: #fff; font-size: 5vw}
+
+#content section{margin: 40px 0}
+#content section p{margin: 10px 2%}
+#content .slogan{text-align: center}
+#content section dl{margin: 10px 2%}
+#content section dl dt{color: #0c4da2; margin: 10px 0; font-weight: 700; font-size: 16px}
+#content section span{display: block; color: #0c4da2; font-weight: 700; margin: 10px 2%; font-size: 16px}
+#content section ol{width: 100%; position: relative}
+#content section ol::after{content: ''; width: 2px; height: 100%;position: absolute;top: 0;background: #ccc; left: 50%; margin-left: -1px; z-index: -1}
+#content section ol li{margin: 5px 0; text-align: center; width: 50%; margin: 20px 25%; border-radius: 25px; background: #0c4da2; color: #fff; padding: 2% 0; font-size: 14px}
+#content section img{width: 100%}
+#content section button{padding: 2%; margin-left: 2%}

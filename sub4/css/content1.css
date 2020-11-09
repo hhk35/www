@@ -1,0 +1,46 @@
+/* 조선사업 본문 */
+
+#content{width: 1200px; margin: 0 auto}
+#content .line_map{float: right; margin: 0 40px 40px 0}
+#content h2{clear: both ;text-align: center; font-size: 60px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px}
+#content h3{font-size: 40px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px}
+#content .slogan{font-size: 30px; line-height: 1.5em; font-family:'Nanum Myeongjo', serif; text-align: center}
+#content .slogan>span{font-weight: 700; color: #255eab}
+#content p{font-size: 18px; line-height: 1.7em; margin-bottom: 20px; font-family: 'Nanum Gothic', sans-serif; text-align: justify}
+
+
+#content .content_area{margin:0 40px 0 40px}
+.content_area .tabs{margin: 100px 0}
+.content_area .tabs ul{overflow: hidden}
+.content_area .tabs ul li{float: left; width: 33.1%; text-align: center; background: #fff; border: 1px solid #ccc}
+.content_area .tabs ul li a{display: block;font-size: 20px; padding: 10px 0; transition: all .5s}
+.content_area .tabs ul li a:hover{background: #255eab; color: #fff; font-weight: 700}
+
+.content_area section{margin-bottom: 100px}
+.content_area section dl{font-family: 'Nanum Gothic', sans-serif}
+.content_area section dl dt{margin-bottom: 40px}
+.content_area section dl dd{margin-bottom: 30px; line-height: 1.5em; font-size: 18px}
+.content_area section:first-of-type img{position: relative; overflow: hidden; width: 2000px; height: 350px; left: 50%; top:0; margin: 0 0 100px -1000px}
+.content_area section:first-of-type ul li:nth-child(2) dl{float: left; width: 500px; margin-right: 50px}
+.content_area section:first-of-type ul li:nth-child(2) img{width: 600px; height: 450px; left: 1000px; top: 0; margin-bottom:0}
+.content_area section ul{overflow: hidden}
+.content_area section ul li{margin-bottom: 100px}
+.content_area section:first-of-type dl dt{color: #255eab; font-size: 20px; font-weight: 700}
+.content_area section:first-of-type span{display: block; color: #255eab; font-size: 20px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 40px}
+.content_area section table{font-size: 18px; font-family: 'Nanum Gothic', sans-serif; border-top: 2px solid #ccc; width: 1120px}
+.content_area section:first-of-type table thead tr{height: 70px; font-size: 18px;border-bottom: 3px solid #ccc; color: #255eab}
+.content_area section:first-of-type table tbody tr{height: 70px; border-bottom: 1px solid #ccc}
+.content_area section:first-of-type table tfoot tr{height: 70px; border-bottom: 2px solid #ccc}
+.content_area section:first-of-type table th{width: 100px}
+
+.content_area section:nth-of-type(2) span{display: block; color: #255eab; font-size: 20px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 40px}
+.content_area section:nth-of-type(2) ul li{margin: 50px 0}
+.content_area section:nth-of-type(2) dl{margin-bottom: 20px}
+.content_area section:nth-of-type(2) dl dt{font-size: 18px; font-weight: 700; margin-bottom: 20px}
+.content_area section:nth-of-type(2) ul li:first-child img{width: 400px; height: 600px; float: left; margin-right: 50px}
+
+.content_area section:last-of-type ol li{overflow: hidden; border-bottom: 1px dashed #ccc}
+.content_area section:last-of-type ol li img{float: left; border-radius: 25px; margin:20px 50px 20px 0}
+.content_area section:last-of-type dl{margin: 70px 0}
+.content_area section:last-of-type dl dt{font-size: 20px; font-weight: 700}
+

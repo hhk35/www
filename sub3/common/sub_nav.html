@@ -1,0 +1,32 @@
+<script>
+window.onload=function(){
+        var num = '<?=$_GET['num']?>';
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+        var nav3= document.getElementById('nav3');
+
+          if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+          }else if(num==3){
+              nav3.className='current';
+          }
+}
+</script>
+<!-- 메인 비주얼 영역 -->    
+        <div class="visual">
+            <img src="common/images/visual.jpg" alt="">
+        </div>
+    <!-- 서브네비영역 --> 
+        <div class="subnav_box">
+            <h3>투자정보</h3>
+            <p>삼성중공업의 분기별 실적을 확인하실 수 있습니다.</p>
+            <div class="subnav">
+                <ul>
+                    <li><a id="nav1" href="sub3_1.html">주가정보</a></li>
+                    <li><a id="nav2" href="sub3_2.html">지배구조</a></li>
+                    <li><a id="nav3" href="sub3_3.html">재무정보</a></li>
+                </ul>
+            </div>
+        </div>

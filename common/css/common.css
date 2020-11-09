@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;
+  color: #333}
+ol, ul{list-style: none}
+table{border-collapse: collapse; border-spacing: 0}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+#skipNav{position:relative; z-index: 10; width:100%;overflow:hidden;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+overflow:hidden; text-align:center; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{height:auto; padding:10px 0; background:#f2f2f2;}
+input{border-radius: 5px}
+
+/* 
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'arial', snas-serif;
+*/
+
+/* 헤더공통영역 */
+#wrap{width: 100%; overflow: hidden}
+
+#headerArea{width: 100%; height: 108px;position: fixed; z-index: 100;background: #fff; border-bottom: 2px solid #0c4da2; text-align:left;}
+#headerArea .header_inner{width: 1200px; margin: 0 auto}
+#headerArea .logo{width: 260px; float: left}
+#headerArea .logo a{display: block; width: 220px; height: 46px;background: url(../../common/images/logo.png)no-repeat; margin: 36px 0 34px 40px; text-indent: -999px; overflow: hidden}
+
+#headerArea .header_right{width:940px; float: right}
+#headerArea .top_menu{overflow: hidden}
+#headerArea .top_menu ul{overflow: hidden; float: right; margin: 20px 40px 0 0}
+#headerArea .top_menu ul li{float: left; padding-left: 5px; font-size: 14px}
+#headerArea .top_menu ul li:first-child{position: relative;margin-right: 15px}
+#headerArea .top_menu ul li:first-child::after{content: '|'; position: absolute; right:-15px; top:0}
+#headerArea .top_menu ul li a:hover{color: #0c4da2}
+
+/* 공통 GNB 영역 */
+#gnb{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; text-align: center}
+#gnb .dropdownmenu{float:left; margin: 23px 0 0 140px}
+#gnb .dropdownmenu .menu{position:relative; float:left}
+#gnb .dropdownmenu li h3{position:relative; width:160px; height:30px; overflow:hidden}
+#gnb .dropdownmenu li h3 a:hover{color: #0c4da2}
+#gnb .dropdownmenu li ul{width: 160px; position:absolute; top:30px; left:0; padding:20px 0; height: 130px; font-weight: 400; font-size: 18px;display: none}
+#gnb .dropdownmenu li ul li a{color:#333;text-decoration:none; display: block; padding: 5px 0; transition: all .1s}
+#gnb .dropdownmenu li ul li a:hover{font-weight: 700; color:#fff;text-decoration:none; background: #0c4da2}
+
+/* 푸터공통영역 */
+#footerArea{background: #4d5559; color: #fff}
+#footerArea .footer_inner{width: 1200px; height: 160px; margin: 0 auto}
+
+#footerArea .footer_top .corporate{width: 1000px; float: left}
+#footerArea .footer_top .corporate ul{margin: 30px 0 0 40px}
+#footerArea .footer_top .corporate ul li{float: left;position: relative}
+#footerArea .footer_top .corporate a{display: block; color: #fff; float: left; margin-right: 30px}
+#footerArea .footer_top .corporate .after::after{content: '|'; position: absolute; right: 10px; top:0}
+
+#footerArea .footer_top .family_site{width: 155px; height: 25px; border: 1px solid #fff; position: relative; right:5px; top: 30px; float: right; font-weight: 700}
+#footerArea .footer_top .family_site:hover{background: #fff; border: 1px solid #4d5559}
+#footerArea .footer_top .family_site .arrow{display: block; font-size: 16px; padding: 3px 0 0 15px; color: #fff}
+#footerArea .footer_top .family_site:hover .arrow{color: #0c4da2}
+#footerArea .footer_top .family_site ul{width: 155px; position: absolute; top: 25px; left: -1px; border: 1px solid #4d5559; display: none}
+#footerArea .footer_top .family_site ul li{line-height: 1.5em; background: #fff; text-align: center; border: 1px solid #4d5559}
+#footerArea .footer_top .family_site ul li a{display: block; transition: all .3s}
+#footerArea .footer_top .family_site ul li a:hover{background: #00f; color: #fff}
+
+#footerArea .footer_bottom .copyright{float: left; margin: 30px 0 0px 40px; line-height: 1.5em; font-size: 12px}
+#footerArea .footer_bottom .sns{width: 160px; float: right}
+#footerArea .footer_bottom .sns ul{margin-top: 30px}
+#footerArea .footer_bottom .sns ul li{float: left; margin-right: 20px}
+#footerArea .footer_bottom .sns ul li a{display: block; width: 24px; height: 24px}
+#footerArea .footer_bottom .sns .facebook a{background: url(../images/facebook.png); background-size: cover}
+#footerArea .footer_bottom .sns .blog a{background: url(../images/blog.png); background-size: cover}
+#footerArea .footer_bottom .sns .twitter a{background: url(../images/twitter.png);background-size: cover}
+
+/* 서브 탭메뉴 */
+
+.content_area .list{display: none}
+.content_area .tabs ul li .on{background: #255eab; color: #fff; font-weight: 700}
+
+/* topbtn */
+.top_btn{display: block; width: 45px; height: 45px; padding-top: 8px;box-sizing: border-box;border-radius: 50%; background: #0c4da2; position: fixed; z-index: 100; left: 50%; bottom: 162px; margin-left: 600px; font-size: 24px; color: #fff;text-align: center}

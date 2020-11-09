@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>삼성중공업 찾아오시는길</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub4_2.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e5387753aea27b08911c641099d3deb4"></script>
+<script src="https://kit.fontawesome.com/25ed4bdcad.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <? include "head.html" ?>
+    <div class="main">
+        <img src="images/sub4_visual.jpg" alt="">
+        <h3>고객센터</h3>
+    </div>
+    <article id="content">
+        <h2>찾아오시는길</h2>
+        <section class="rd">
+            <h3>판교R&amp;D센터</h3>
+            <p>경기도 성남시 분당구 판교로 227번길 23<br> 삼성중공업 판교R&amp;D센터 우 13486</p>
+            <div id="mapRd">
+
+            </div>
+            <div class="map_infor">
+                <dl>
+                    <dt>버스</dt>
+                    <dd>판교역서편 정류장</dd>
+                    <dd>602-1A, 602-1B(평일)</dd>
+                    <dd>실리콘파크.삼성중공업 정류장</dd>
+                </dl>
+                <p>Tel. 031-5171-7000</p>
+            </div>
+        </section>
+        <section class="yard">
+            <h3>거제 조선소</h3>
+            <p>경상남도 거제시 장평3로 80(장평동) 우 53261</p>
+            <div id="mapYard">
+
+            </div>
+            <div class="map_infor">
+                <dl>
+                    <dt>버스</dt>
+                    <dd>고현버스터미널 정류장</dd>
+                    <dd>110, 110-1, 111, 111-1</dd>
+                    <dd>장평시장 정류장</dd>
+                </dl>
+                <p>Tel. 055-630-3114</p>
+            </div>
+        </section>
+    </article>
+   <? include "foot.html" ?>
+ <script src="js/kakao_map.js"></script>
+</body>
+</html>

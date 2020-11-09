@@ -1,0 +1,160 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>삼성중공업-주가정보</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25ed4bdcad.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3commone.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+    ?>
+    <!-- 본문콘텐츠영역 -->
+          
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <span>홈</span>&gt;
+                    <span>고객지원</span>&gt;
+                    <strong>주가정보</strong>
+                </div>
+                <h2>주가정보</h2>
+                <p class="slogan">삼성중공업의 주가정보를 실시간으로 알려드립니다.</p>
+            </div>
+            <div class="content_area">
+                <h3>현재가</h3>
+                <table>
+                    <thead>
+                       <tr>
+                            <th scope="col">매도잔량</th>
+                            <th scope="col">호가(원)</th>
+                            <th scope="col">매수잔량</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>36,519</td>
+                            <td>5,920</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>54,616</td>
+                            <td>5,910</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>48,872</td>
+                            <td>5,900</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>20,417</td>
+                            <td>5,890</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>1,133</td>
+                            <td>5,880</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>5,870</td>
+                            <td>10,082</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>5,860</td>
+                            <td>8,471</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>5,850</td>
+                            <td>49,801</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>5,840</td>
+                            <td>54,182</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>5,830</td>
+                            <td>45,539</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                       <tr>
+                            <td>161,557</td>
+                            <td>-</td>
+                            <td>168,075</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <table id="investment"></table>
+                <!--
+                <table>
+                    <tbody>
+                        <tr>
+                            <th scope="row">전일가(원)</th>
+                            <td>5,890</td>
+                            <th scope="row">매도호가(원)</th>
+                            <td>5,880</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">전일거래량(주)</th>
+                            <td>4,066,194</td>
+                            <th scope="row">매수호가(원)</th>
+                            <td>5,870</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">상한가(원)</th>
+                            <td>7,650</td>
+                            <th scope="row">외국인지분(천주)</th>
+                            <td>95,171</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">하한가(원)</th>
+                            <td>4,130</td>
+                            <th scope="row">외국인지분율(%)</th>
+                            <td>15.11</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">자본금(억원)</th>
+                            <td>31,500</td>
+                            <th scope="row">상장주식(천주)</th>
+                            <td>630,000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">액면가(억원)</th>
+                            <td>5,000</td>
+                            <th scope="row">시가총액(억원)</th>
+                            <td>37,044</td>
+                        </tr>
+                    </tbody>
+                </table>
+                -->
+            </div>
+        </article>
+        
+    <? include "../common/sub_foot.html" ?>
+    <script src="js/content1-json.js"></script>
+</body>
+</html>

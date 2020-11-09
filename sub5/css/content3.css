@@ -1,0 +1,28 @@
+/* 찾아오시는길 본문 */
+
+#content{width: 1200px; margin: 0 auto}
+#content .title_area{margin-left: 40px}
+#content .line_map{float: right; margin: 0 40px 40px 0}
+#content h2{clear: both ;text-align: center; font-size: 60px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px}
+#content h3{font-size: 40px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 50px}
+#content .slogan{font-size: 30px; line-height: 1.5em; font-family:'Nanum Myeongjo', serif; text-align: center}
+#content .slogan>span{font-weight: 700; color: #255eab}
+#content p{font-size: 18px; line-height: 1.7em; margin-bottom: 20px; font-family: 'Nanum Gothic', sans-serif; text-align: justify}
+
+
+#content .content_area{margin:0 40px 0 40px}
+#content .content_area section{margin: 100px 0; overflow: hidden}
+#content .content_area .rd #mapRd{width: 728px; height: 600px; border: 1px solid #ccc; margin: 50px 0 0 0; float: left}
+#content .content_area .yard #mapYard{width: 728px; height: 600px; border: 1px solid #ccc; margin: 50px 0 0 0; float: left}
+
+#content .content_area span{display: block; font-family: 'Nanum Gothic', sans-serif; font-size: 24px; font-weight: 700; padding: 30px; color: #fff; margin-top: 30px}
+#content .content_area .map_infor{width: 350px; height: 600px;float: right; background: #255eab;margin-top: 50px}
+#content .content_area .map_infor dl{padding: 30px; color: #fff}
+#content .content_area .map_infor dl dt{font-family:  'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 20px}
+#content .content_area .map_infor dl dd{line-height: 1.5em; font-size: 18px}
+
+
+
+
+
+

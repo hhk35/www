@@ -1,0 +1,16 @@
+#content{width: 80%; margin: 50px auto; border: 1px solid #ccc; padding: 5%; border-radius: 50px; box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12)}
+#content h2{text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 32px; margin-bottom: 50px}
+#content ul li{width: 100%; height: 100px}
+#content ul .modi{width: 90%; height: 55px; margin: 1% 10%; border-spacing: 0; border-collapse: collapse;text-align: center; overflow: hidden; font-size: 20px}
+#content dt{margin-bottom: 10px}
+#loadtext{display: block; clear: both}
+#loadtext2{display: block; clear: both}
+#content input{width: 96%; height: 40px; padding: 1%; box-sizing: border-box;border-radius: 5px; font-size: 16px; background: rgba(209,235,255,1); border: 1px solid #ccc}
+
+#content .phone{height: 40px}
+#content .phone input{width: 30%;}
+#content .phone select{width: 20%; height: 40px; padding: 1%; box-sizing: border-box; font-size: 16px; border: 0; background: rgba(209,235,255,1); border: 1px solid #ccc; border-radius: 5px}
+#content .mail input,select{width: 40%; height: 40px}
+#content ul .modi>a{display: block; float: left; width: 35%; height: 50px; color: #333; background: rgba(209,235,255,1); line-height: 50px; font-weight: 700;transition: all .3s; border: 1px solid #ccc; border-radius: 15px}
+#content ul .modi>a:last-child{display: block;background: rgba(209,235,255,1); margin-left: 50px}
+#content ul .modi>a:hover{background: #0c4da2; color: #fff}

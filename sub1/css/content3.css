@@ -1,0 +1,23 @@
+/* 연혁 본문 */
+
+#content{width: 1200px; margin: 0 auto}
+#content .line_map{float: right; margin: 0 40px 40px 0}
+#content h2{clear: both ;text-align: center; font-size: 60px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px}
+#content h3{font-size: 40px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px}
+#content .slogan{font-size: 30px; line-height: 1.5em; font-family: 'Nanum Myeongjo', serif; text-align: center}
+#content .slogan>span{font-weight: 700; color: #255eab}
+#content p{font-size: 18px; line-height: 1.7em; margin-bottom: 100px; font-family: 'Nanum Gothic', sans-serif; text-align: justify}
+
+.content_area{width: 1120px; margin: 0 auto}
+.content_area .tabs ul{overflow: hidden}
+.content_area .tabs ul li{float: left; width: 24.8%; text-align: center; background: #fff; border: 1px solid #ccc; margin-bottom: 100px}
+.content_area .tabs ul li a{display: block;font-size: 20px; padding: 10px 0; transition: all .5s}
+.content_area .tabs ul li a:hover{background: #255eab; color: #fff; font-weight: 700}
+
+
+.content_area dl{padding: 20px; margin-bottom: 10px; line-height: 1.5em; font-family: 'Nanum Gothic', sans-serif; overflow: hidden; border-bottom: 1px dashed #ccc}
+.content_area dl dt{float: left; font-size: 40px; font-weight: 700; margin: 10px 0 0 60px}
+.content_area dl dd{margin-left: 315px}
+.content_area dl dd span{margin-right: 40px}
+.content_area section{margin-bottom: 100px}
+.content_area section img{position: relative; overflow: hidden; width: 2000px; height: 350px; left: 50%; top:0; margin: 0 0 100px -1000px}

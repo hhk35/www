@@ -1,0 +1,27 @@
+/* 투자정보 본문 */
+
+#content{width: 1200px; margin: 0 auto}
+#content .line_map{float: right; margin: 0 40px 40px 0}
+#content h2{clear: both ;text-align: center; font-size: 60px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px}
+#content h3{font-size: 40px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 50px}
+#content .slogan{font-size: 30px; line-height: 1.5em; font-family:'Nanum Myeongjo', serif; text-align: center}
+#content .slogan>span{font-weight: 700; color: #255eab}
+#content p{font-size: 18px; line-height: 1.7em; margin-bottom: 20px; font-family: 'Nanum Gothic', sans-serif; text-align: justify}
+
+
+#content .content_area{margin:60px 40px 0 40px; overflow: hidden}
+#content .content_area span{display: block; padding-top: 20px;font-size: 18px;font-family: 'Nanum Gothic', sans-serif}
+#content .content_area table{width: 500px; text-align: center; font-size: 18px; font-family: 'Nanum Gothic', sans-serif;border-top: 3px solid #ccc; margin: 50px 0 100px 0; float: left}
+#content .content_area table:last-of-type{float: right}
+#content .content_area table tr{border-bottom: 1px solid #ccc}
+#content .content_area table th{height: 50px}
+#content .content_area table td{text-align: center; padding-right: 5px; height: 50px}
+
+#content .content_area table thead{font-weight: 700; border-bottom: 3px solid #ccc; background: rgba(12,77,162,1); color: #fff}
+#content .content_area table tbody{border-bottom: 3px solid #ccc}
+#content .content_area table tfoot{border-bottom: 3px solid #ccc}
+
+
+
+
+
